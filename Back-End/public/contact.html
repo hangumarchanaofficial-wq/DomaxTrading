@@ -264,6 +264,7 @@
 <script>
     document.getElementById("contactForm").addEventListener("submit", async function(e) {
         e.preventDefault();
+        console.log("Form submission triggered");
 
         const formData = {
             firstName: document.getElementById("FirstName").value,
@@ -272,6 +273,7 @@
             subject: document.getElementById("Subject").value,
             message: document.getElementById("Message").value,
         };
+        console.log("Form data:", formData);
 
         try {
             const response = await fetch("/send", {
@@ -279,17 +281,20 @@
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(formData)
             });
+            console.log("Response received:", response);
 
             const toastEl = document.getElementById("toastNotification");
             const toastBody = document.getElementById("toastMessage");
             const toast = new bootstrap.Toast(toastEl);
 
             if (response.ok) {
+                console.log("Message sent successfully!");
                 toastBody.textContent = "✅ Message sent successfully!";
                 toastEl.classList.remove("text-bg-danger");
                 toastEl.classList.add("text-bg-success");
                 e.target.reset();
             } else {
+                console.warn("Failed to send message:", response.status, response.statusText);
                 toastBody.textContent = "⚠️ Failed to send message.";
                 toastEl.classList.remove("text-bg-success");
                 toastEl.classList.add("text-bg-danger");
@@ -297,6 +302,7 @@
 
             toast.show();
         } catch (error) {
+            console.error("Error during form submission:", error);
             const toastEl = document.getElementById("toastNotification");
             const toastBody = document.getElementById("toastMessage");
             const toast = new bootstrap.Toast(toastEl);
@@ -308,7 +314,6 @@
         }
     });
 </script>
-
 
 
 </body>
