@@ -17,12 +17,13 @@ app.post('/send', async (req, res) => {
 
     const transporter = nodemailer.createTransport({
         host: process.env.SES_HOST,
-        port: 465,
-        secure: true,
+        port: 587,
+        secure: false,
         auth: {
             user: process.env.SES_USER,
             pass: process.env.SES_PASS
-        }
+        },
+        tls: { rejectUnauthorized: false }
     });
 
     const mailOptions = {
