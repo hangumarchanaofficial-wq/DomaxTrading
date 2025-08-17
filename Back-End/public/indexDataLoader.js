@@ -43,30 +43,30 @@ async function loadData(){
 async function main(){
     await loadData();
     console.log(database);
-    product1Image.src = database[39].IMG;
-    product1Name.innerText = database[39].Name;
-    product1Style.innerText = database[39].Style;
-    productId4.innerText = database[39].Id;
-    product2Image.src = database[40].IMG;
-    product2Name.innerText = database[40].Name;
-    product2Style.innerText = database[40].Style;
-    productId5.innerText = database[40].Id;
-    product3Image.src = database[37].IMG;
-    product3Name.innerText = database[37].Name;
-    product3Style.innerText = database[37].Style;
-    productId6.innerText = database[37].Id;
-    product4Image.src = database[52].IMG;
-    product4Name.innerText = database[52].Name;
-    product4Style.innerText = database[52].Style;
-    productId7.innerText = database[52].Id;
-    product5Image.src = database[55].IMG;
-    product5Name.innerText = database[55].Name;
-    product5Style.innerText = database[55].Style;
-    productId8.innerText = database[55].Id;
-    product6Image.src = database[45].IMG;
-    product6Name.innerText = database[45].Name;
-    product6Style.innerText = database[45].Style;
-    productId9.innerText = database[45].Id;
+    product1Image.src = database[117].IMG;
+    product1Name.innerText = database[117].Name;
+    product1Style.innerText = database[117].Style;
+    productId4.innerText = database[117].Id;
+    product2Image.src = database[121].IMG;
+    product2Name.innerText = database[121].Name;
+    product2Style.innerText = database[121].Style;
+    productId5.innerText = database[121].Id;
+    product3Image.src = database[123].IMG;
+    product3Name.innerText = database[123].Name;
+    product3Style.innerText = database[123].Style;
+    productId6.innerText = database[123].Id;
+    product4Image.src = database[88].IMG;
+    product4Name.innerText = database[88].Name;
+    product4Style.innerText = database[88].Style;
+    productId7.innerText = database[88].Id;
+    product5Image.src = database[92].IMG;
+    product5Name.innerText = database[92].Name;
+    product5Style.innerText = database[92].Style;
+    productId8.innerText = database[92].Id;
+    product6Image.src = database[91].IMG;
+    product6Name.innerText = database[91].Name;
+    product6Style.innerText = database[91].Style;
+    productId9.innerText = database[91].Id;
 
 
 
