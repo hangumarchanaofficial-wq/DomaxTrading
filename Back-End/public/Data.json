@@ -1777,7 +1777,7 @@
   },
   {
     "Id": 149,
-    "Name": "Modern Ring Frame Crystal Pendant Chandelier",
+    "Name": "Ring Frame Crystal Pendant Chandelier",
     "Category": "Chandeliers",
     "Sub": "Geometric",
     "Dep": "A contemporary multi-pendant chandelier featuring elegant circular gold metal frames, each enclosing a textured crystal glass shade. The pendants are suspended at staggered heights, creating a sculptural and floating effect. The combination of polished gold rings and softly glowing crystal diffusers makes this fixture an ideal statement piece for modern living rooms, dining areas, or double-height interiors.",
@@ -1825,7 +1825,7 @@
   },
   {
     "Id": 153,
-    "Name": "Modern Crystal Ring Chandelier with Cone Pendants",
+    "Name": "Crystal Ring Chandelier  Pendants",
     "Category": "Chandeliers",
     "Sub": "Crystal",
     "Dep": "A modern luxury chandelier featuring a suspended circular crystal ring combined with multiple cone-shaped pendant lights. Each pendant has a polished gold top and a sparkling crystal diffuser, creating a balanced mix of geometric design and glamorous lighting. Ideal for dining rooms, living areas, and contemporary luxury interiors.",
@@ -2425,7 +2425,7 @@
   },
   {
     "Id": 203,
-    "Name": "Luxury Crystal Wall Light (Antique Gold Finish)",
+    "Name": "Luxury Crystal Wall Light",
     "Category": "Indoor Light",
     "Sub": "Wall Light",
     "Dep": "A premium decorative wall-mounted crystal light featuring a bold antique-gold metal frame with oval crystal accents. The center body is built with layered cut-crystal elements, creating a rich reflective effect and a warm luxury glow. Ideal for living rooms, hallways, hotel interiors, and classic luxury wall décor.",
@@ -2437,7 +2437,7 @@
   },
   {
     "Id": 204,
-    "Name": "Luxury Crystal Wall Light (Royal Gold Finish)",
+    "Name": "Luxury Crystal Wall Light",
     "Category": "Indoor Light",
     "Sub": "Wall Light",
     "Dep": "An opulent wall-mounted crystal light featuring a royal gold-finished metal base with floral-inspired crystal accents. The centerpiece consists of a vertical clear crystal column embedded with circular crystal elements, producing a radiant, jewel-like illumination. Perfect for premium living spaces, hotels, corridors, and classic luxury interiors.",
@@ -2449,7 +2449,7 @@
   },
   {
     "Id": 205,
-    "Name": "Luxury Crystal Wall Light (Imperial Gold Finish)",
+    "Name": "Luxury Crystal Wall Light",
     "Category": "Indoor Light",
     "Sub": "Wall Light",
     "Dep": "A lavish wall-mounted crystal light featuring an imperial gold-finished metal base with layered floral crystal accents. The vertical centerpiece is crafted from a geometric cut crystal column, delivering brilliant light refraction and a regal glow. Designed to elevate luxury interiors such as living rooms, hallways, hotels, and grand foyers.",
@@ -2461,7 +2461,7 @@
   },
   {
     "Id": 206,
-    "Name": "Modern Crystal Ring Wall Light (Gold Finish)",
+    "Name": "Modern Crystal Ring Wall Light",
     "Category": "Indoor Light",
     "Sub": "Wall Light",
     "Dep": "A premium modern wall light featuring a central polished gold metal body with two curved crystal-ring side panels and vertical crystal columns on the top and bottom. The faceted crystal design creates a sparkling glow and elegant reflections, making it ideal for luxury living rooms, hallways, and hotel interiors.",
@@ -2473,7 +2473,7 @@
   },
   {
     "Id": 207,
-    "Name": "Modern Nordic Black Pendant Light (Wood Accent)",
+    "Name": "Modern Nordic Black Pendant Light ",
     "Category": "Indoor Light",
     "Sub": "Pendant Light",
     "Dep": "A sleek Nordic-style pendant light featuring a wide matte-black metal shade with a natural wood top accent and a long hanging cord. The minimal silhouette makes it perfect for dining areas, kitchen islands, cafés, and modern interiors.",
@@ -2485,7 +2485,7 @@
   },
   {
     "Id": 208,
-    "Name": "Nordic White Pendant Light (Wood Accent)",
+    "Name": "Nordic White Pendant Light",
     "Category": "Indoor Light",
     "Sub": "Pendant Light",
     "Dep": "A clean and elegant Nordic-style pendant light featuring a conical matte-white metal shade paired with a natural wood top accent and white suspension cord. Ideal for dining areas, kitchen counters, cafés, and minimalist interiors.",
@@ -2497,7 +2497,7 @@
   },
   {
     "Id": 209,
-    "Name": "Nordic Black Pendant Light (Wood Neck)",
+    "Name": "Nordic Black Pendant Light",
     "Category": "Indoor Light",
     "Sub": "Pendant Light",
     "Dep": "A modern Nordic-inspired pendant light featuring a matte black metal dome shade combined with a natural wooden neck detail. The clean silhouette and warm wood accent make it ideal for kitchens, dining spaces, cafés, and contemporary interiors.",
@@ -2557,7 +2557,7 @@
   },
   {
     "Id": 214,
-    "Name": "Round Recessed LED Step Light (Oval Beam)",
+    "Name": "Round Recessed LED Step Light",
     "Category": "Outdoor Lighting",
     "Sub": "Step Light / Wall Recessed Light",
     "Dep": "A round recessed LED step light designed for stairs, pathways, and wall installations. The oval cut-out front creates a focused, glare-free downward beam while keeping the fixture clean and minimal.",
@@ -2593,7 +2593,7 @@
   },
   {
     "Id": 217,
-    "Name": "Square Recessed LED Step Light (Semi-Circle Face)",
+    "Name": "Square Recessed LED Step Light",
     "Category": "Outdoor Lighting",
     "Sub": "Step Light / Wall Recessed Light",
     "Dep": "A square recessed LED step light with a semi-circle face design, ideal for staircases, corridors, and outdoor pathways. Provides soft downward lighting for safety and modern aesthetics.",
@@ -2605,7 +2605,7 @@
   },
   {
     "Id": 218,
-    "Name": "Square Recessed LED Step Light (Semi-Circle Face)",
+    "Name": "Square Recessed LED Step Light",
     "Category": "Outdoor Lighting",
     "Sub": "Step Light / Wall Recessed Light",
     "Dep": "A square recessed LED step light with a semi-circle face design in white finish, suitable for staircases, corridors, and wall installations. Provides soft, glare-free downward illumination for safety and elegance.",
@@ -2617,7 +2617,7 @@
   },
   {
     "Id": 219,
-    "Name": "Square Recessed LED Step Light (Deep Recess Face)",
+    "Name": "Square Recessed LED Step Light",
     "Category": "Outdoor Lighting",
     "Sub": "Step Light / Wall Recessed Light",
     "Dep": "A square recessed LED step light with a deep recessed face design in white finish, ideal for staircases, pathways, and wall installations. Designed to provide soft, glare-free downward lighting for safety and modern aesthetics.",
@@ -2629,7 +2629,7 @@
   },
   {
     "Id": 220,
-    "Name": "Modern LED Ring Chandelier (Triple Loop Design)",
+    "Name": "Modern LED Ring Chandelier",
     "Category": "Indoor Lighting",
     "Sub": "LED Chandelier / Pendant Light",
     "Dep": "A modern LED ring chandelier featuring a triple loop suspended design, ideal for living rooms, dining areas, and luxury interiors. Provides bright ambient lighting with a stylish floating ring effect for a premium contemporary look.",
@@ -2641,7 +2641,7 @@
   },
   {
     "Id": 221,
-    "Name": "Modern LED Ring Chandelier with Crystal Globe Lights",
+    "Name": "Ring Chandelier with Crystal Globe Lights",
     "Category": "Indoor Lighting",
     "Sub": "LED Chandelier / Pendant Light",
     "Dep": "A stylish modern chandelier featuring a glowing LED ring with an infinity-loop design and multiple crystal globe pendant lights. Perfect for living rooms, dining spaces, hotels, and luxury interiors, providing both decorative beauty and bright ambient lighting.",
@@ -2653,7 +2653,7 @@
   },
   {
     "Id": 222,
-    "Name": "Luxury LED Infinity Ring Chandelier with Starry Projection",
+    "Name": "Ring Chandelier with Starry Projection",
     "Category": "Indoor Lighting",
     "Sub": "LED Chandelier / Decorative Pendant Light",
     "Dep": "A premium luxury LED chandelier featuring elegant gold infinity rings with warm LED illumination and reflective globe lights. The ceiling projection creates a magical star-and-moon effect, making it ideal for bedrooms, living rooms, and high-end interior spaces.",
@@ -2665,7 +2665,7 @@
   },
   {
     "Id": 223,
-    "Name": "Round Surface Mounted LED Spot Light (Black / White / Gold)",
+    "Name": "Round Surface Mounted LED Spot Light ",
     "Category": "Indoor Lighting",
     "Sub": "Surface Mounted Spot Light",
     "Dep": "A modern round surface-mounted LED spotlight available in multiple finishes. Designed for focused illumination in homes, showrooms, offices, and commercial interiors, providing a clean and minimal ceiling look with strong light output.",
@@ -2689,7 +2689,7 @@
   },
   {
     "Id": 225,
-    "Name": "Recessed LED Downlight (Round & Square)",
+    "Name": "Recessed LED Downlight",
     "Category": "Indoor Lighting",
     "Sub": "Recessed Downlight",
     "Dep": "A compact recessed LED downlight available in both round and square designs. Ideal for modern ceilings, providing focused and efficient lighting for homes, offices, corridors, and retail interiors.",
@@ -2713,7 +2713,7 @@
   },
   {
     "Id": 227,
-    "Name": "LED Wall Light (Up & Down)",
+    "Name": "LED Wall Light ",
     "Category": "Indoor Lighting",
     "Sub": "Wall Light",
     "Dep": "Modern decorative LED wall light with up and down beam effect. Perfect for living rooms, bedrooms, corridors, stairways, hotels, and indoor feature walls.",
@@ -2725,7 +2725,7 @@
   },
   {
     "Id": 228,
-    "Name": "LED Wall Light (Up & Down)",
+    "Name": "LED Wall Light ",
     "Category": "Indoor Lighting",
     "Sub": "Wall Light",
     "Dep": "Modern LED wall light with crystal bubble acrylic center and up & down beam effect. Ideal for living rooms, bedrooms, corridors, stairways, hotels, and feature walls.",
@@ -2797,7 +2797,7 @@
   },
   {
     "Id": 234,
-    "Name": "Outdoor Up-Down Wall Light with Motion Sensor",
+    "Name": "Outdoor  Wall Light ",
     "Category": "Outdoor Lighting",
     "Sub": "Wall Light",
     "Dep": "Modern outdoor wall light with a bright front panel and up-down beam effect. Includes a built-in motion sensor, making it ideal for gates, gardens, boundary walls, and entrances.",
@@ -2833,7 +2833,7 @@
   },
   {
     "Id": 237,
-    "Name": "Bubble Crystal Dual Beam LED Wall Light (Horizontal)",
+    "Name": "Bubble Crystal Dual Beam LED Wall Light ",
     "Category": "Indoor Lighting",
     "Sub": "Wall Light",
     "Dep": "Modern decorative LED wall light in a horizontal design with bubble crystal glass center and dual up-down beam effect. Creates stylish wall patterns, perfect for bedrooms, hallways, living rooms, and hotel interiors.",
@@ -2845,7 +2845,7 @@
   },
   {
     "Id": 238,
-    "Name": "Diamond Pattern Crystal Dual Beam LED Wall Light",
+    "Name": "Crystal Dual Beam LED Wall Light",
     "Category": "Indoor Lighting",
     "Sub": "Wall Light",
     "Dep": "Elegant dual up-down LED wall light featuring diamond-pattern crystal diffusers on both ends with a central matte black body. Produces a warm ambient glow with decorative light textures, ideal for living rooms, bedrooms, corridors, hotels, and modern interiors.",
@@ -3043,7 +3043,7 @@
   },
   {
     "Id": 253,
-    "Name": "Modern 3-Light Geometric Cage Pendant with Crystal Accents",
+    "Name": "Modern 3-Light Geometric Cage Pendant",
     "Category": "Pendant Lights",
     "Sub": "Pendant Light",
     "Dep": "A striking modern 3-light pendant featuring geometric chevron-patterned metal cage shades in matte black finish. Each pendant includes elegant crystal glass accents at the top and bottom, creating a sophisticated contrast. The warm amber inner glow provides inviting illumination. Suspended from a round white ceiling canopy at varying heights, this fixture is perfect for dining areas, kitchen islands, stairwells, and contemporary living spaces.",
@@ -3057,7 +3057,7 @@
   },
   {
     "Id": 254,
-    "Name": "Modern 3-Light Frosted Glass Pendant with Gold Accents",
+    "Name": "Modern 3-Light Frosted Glass Pendant",
     "Category": "Pendant Lights",
     "Sub": "Pendant Light",
     "Dep": "An elegant modern 3-light pendant featuring elongated cylindrical frosted glass shades with a textured finish that creates a soft, warm glow. Each pendant is accented with matte black holders and subtle gold trim rings, creating a sophisticated contrast. Suspended from a round black ceiling canopy at staggered heights, this fixture provides beautiful ambient lighting perfect for dining areas, kitchen islands, and contemporary living spaces.",
@@ -3071,7 +3071,7 @@
   },
   {
     "Id": 255,
-    "Name": "Luxury Traditional Crystal Chandelier with Candle Lights",
+    "Name": "Luxury Traditional Crystal Chandelier",
     "Category": "Chandeliers",
     "Sub": "Crystal Chandelier",
     "Dep": "A magnificent traditional crystal chandelier featuring an ornate antique gold-finished metal frame with intricate scrollwork and decorative detailing. The chandelier showcases multiple tiers with candle-style flame-tip bulbs, adorned with cascading crystal drops, crystal beads, and faceted crystal pendants that create stunning light reflections. The elaborate design includes decorative crowns and swag chains, making it a statement piece perfect for grand dining rooms, ballrooms, luxury hotels, palatial interiors, and classic traditional spaces.",
@@ -3085,7 +3085,7 @@
   },
   {
     "Id": 256,
-    "Name": "Modern Luxury Tiered Crystal Chandelier - Black & Gold",
+    "Name": "Modern Luxury Tiered Crystal Chandelier",
     "Category": "Chandeliers",
     "Sub": "Crystal Chandelier",
     "Dep": "A stunning modern luxury chandelier featuring a dramatic tiered design with alternating layers of matte black cylindrical tubes and polished gold accents. The chandelier is adorned with cascading tiers of faceted crystal glass prisms that create brilliant light reflections and a glamorous waterfall effect. The central column features a decorative twisted design, and the fixture is finished with a polished gold ceiling canopy. This statement piece combines contemporary geometric design with classic crystal elegance, perfect for luxury dining rooms, living rooms, hotel lobbies, and high-end modern interiors.",
@@ -3127,7 +3127,7 @@
   },
   {
     "Id": 259,
-    "Name": "Modern Bell-Shaped Wooden Slat Pendant Light",
+    "Name": "Modern Bell-Shaped  Pendant Light",
     "Category": "Pendant Lights",
     "Sub": "Pendant Light",
     "Dep": "An elegant bell-shaped pendant light crafted from curved wooden slats. The vertical wood pieces create a beautiful cage structure that allows light to filter through, casting interesting shadows. The natural wood finish adds warmth and a touch of Scandinavian or Japandi style to any room. Perfect for dining tables, kitchen islands, or entryways.",
@@ -3141,7 +3141,7 @@
   },
   {
     "Id": 260,
-    "Name": "Modern Rounded Wooden Teardrop Pendant Light",
+    "Name": "Modern Rounded Pendant Light",
     "Category": "Pendant Lights",
     "Sub": "Pendant Light",
     "Dep": "A sophisticated rounded pendant light featuring a teardrop-shaped cage made of vertical wooden slats. Its smooth curves and organic material bring a sense of calm and nature into any space. The open slat design ensures ample lighting while serving as a beautiful decorative piece. Ideal for living rooms, dining tables, or cozy reading corners.",
@@ -3155,7 +3155,7 @@
   },
   {
     "Id": 261,
-    "Name": "Modern Black Cylindrical Cage Pendant Light",
+    "Name": "Black Cylindrical Cage Pendant Light",
     "Category": "Pendant Lights",
     "Sub": "Pendant Light",
     "Dep": "A minimalist cylindrical pendant light featuring a sleek black metal cage design. The vertical bars create a structured yet open look, making it an excellent choice for modern and industrial-style interiors. This fixture provides focused lighting while adding a bold architectural element to the space. Perfect for kitchen islands, hallways, or bedside lighting.",

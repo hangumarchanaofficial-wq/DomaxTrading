@@ -162,11 +162,15 @@ header {
     position: relative;
     width: 100%;
     top: 85px;
+    max-height: 75vh;
+    overflow: hidden;
 }
 
 .sliderImg {
     width: 100%;
-    height: auto;
+    height: 75vh;
+    object-fit: cover;
+    object-position: center;
 }
 
 #HomeCardsHeader1 {
