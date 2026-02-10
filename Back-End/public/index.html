@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Domax Trading </title>
@@ -16,17 +17,15 @@
     <script src="SearchFilter.js" defer></script>
 </head>
 <style>
-    html, body {
+    html,
+    body {
         margin: 0;
         padding: 0;
         height: 100%;
     }
 
 
-    #loader-wrapper {
-
-
-    }
+    #loader-wrapper {}
 
     .loader {
         display: flex;
@@ -48,7 +47,7 @@
 
 
 <body>
-<div id="loader-wrapper" style="
+    <div id="loader-wrapper" style="
     position: fixed;
     top: 0;
     left: 0;
@@ -61,287 +60,319 @@
     align-items: center;
     flex-direction: column;
 ">
-    <div class="loader">
-        <img src="assests/Logos/Logo-02.png" alt="Logo">
-        <img id="loaderGIF" src="assests/Pictures/loading.gif" alt="loader">
+        <div class="loader">
+            <img src="assests/Logos/Logo-02.png" alt="Logo">
+            <img id="loaderGIF" src="assests/Pictures/loading.gif" alt="loader">
+        </div>
     </div>
-</div>
 
-<div id="content" style="display: none;">
-    <header class="shadow-lg" >
-        <nav class="navbar navbar-expand-md" id="navBar">
-            <div class="container">
-                <!-- Logo -->
-                <a class="navbar-brand" href="#">
-                    <img src="assests/Logos/Logo-02.png" alt="Domax Trading Logo" onclick="goToHome()">
-                </a>
+    <div id="content" style="display: none;">
+        <header class="shadow-lg">
+            <nav class="navbar navbar-expand-md" id="navBar">
+                <div class="container">
+                    <!-- Logo -->
+                    <a class="navbar-brand" href="#">
+                        <img src="assests/Logos/Logo-02.png" alt="Domax Trading Logo" onclick="goToHome()">
+                    </a>
 
-                <!-- Toggle button for small screens -->
-                <button class="navbar-toggler1  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                    <!-- Toggle button for small screens -->
+                    <button class="navbar-toggler1  collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navMenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                <!-- Collapsible content -->
-                <div class="collapse navbar-collapse justify-content-end" id="navMenu">
-                    <ul class="navbar-nav align-items-md-center">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Product.html">Products</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                    </ul>
+                    <!-- Collapsible content -->
+                    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+                        <ul class="navbar-nav align-items-md-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Product.html">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                        </ul>
 
-                    <!-- Search bar -->
-                    <form class="d-flex mt-3 mt-md-0 ms-md-3" role="search">
-                        <input class="form-control" type="search" placeholder="Search" aria-label="Search" id="searchText">
+                        <!-- Search bar -->
+                        <form class="d-flex mt-3 mt-md-0 ms-md-3" role="search">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search"
+                                id="searchText">
 
-                    </form>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <div id="searchDropdown" class="dropdown-content"></div>
+
+        <div id="carouselExampleIndicators" class="carousel slide shadow-lg" data-bs-ride="carousel"
+            data-bs-interval="3000">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+
+            <!-- Slides -->
+            <div class="carousel-inner ImgSlider">
+                <div class="carousel-item active">
+                    <img src="assests/Pictures/Slider1.png" class="d-block w-100 sliderImg" alt="Slider1">
+                </div>
+                <div class="carousel-item">
+                    <img src="assests/Pictures/Slider2.png" class="d-block w-100 sliderImg" alt="Slider2">
+                </div>
+                <div class="carousel-item">
+                    <img src="assests/Pictures/Slider3.png" class="d-block w-100 sliderImg" alt="Slider3">
+                </div>
+                <div class="carousel-item">
+                    <img src="assests/Pictures/Slider4.png" class="d-block w-100 sliderImg" alt="Slider4">
                 </div>
             </div>
-        </nav>
-    </header>
 
 
-    <div id="searchDropdown" class="dropdown-content"></div>
-
-    <div id="carouselExampleIndicators" class="carousel slide shadow-lg" data-bs-ride="carousel" data-bs-interval="3000">
-        <!-- Indicators -->
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
-        <!-- Slides -->
-        <div class="carousel-inner ImgSlider">
-            <div class="carousel-item active">
-                <img src="assests/Pictures/Slider1.png" class="d-block w-100 sliderImg" alt="Slider1">
+        <div id="HomeCardsHeader1">
+            <div class="section-heading">
+                <hr class="hr1">
+                <h2 id="cardHeader1">Elegant, Efficient, Everlasting</h2>
+                <hr class="hr1">
             </div>
-            <div class="carousel-item">
-                <img src="assests/Pictures/Slider2.png" class="d-block w-100 sliderImg" alt="Slider2">
-            </div>
-            <div class="carousel-item">
-                <img src="assests/Pictures/Slider3.png" class="d-block w-100 sliderImg" alt="Slider3">
-            </div>
-            <div class="carousel-item">
-                <img src="assests/Pictures/Slider4.png" class="d-block w-100 sliderImg" alt="Slider4">
-            </div>
+
+            <h5 id="cardDescription">Oder Now and Get Same-Day-Delivery</h5>
         </div>
-
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <div id="HomeCardsHeader1">
-        <div class="section-heading">
-            <hr class="hr1"><h2 id="cardHeader1">Elegant, Efficient, Everlasting</h2><hr class="hr1">
-        </div>
-
-        <h5 id="cardDescription">Oder Now and Get Same-Day-Delivery</h5>
-    </div>
         <div class="container py-5" id="HomeCards">
-        <div class="row g-4">
-            <div class="col-12 col-lg-4">
-                <div class="card h-100 border-0 cardBgColor">
-                    <img src="" id="HP4Image" class="card-img-top" alt="Product 1">
-                    <div class="card-body">
-                        <div class="card-details">
-                            <h5 class="card-title" id="HP4Name"></h5>
-                            <h6 class="card-dep" id="HP4Style"></h6>
-                            <p class="productId" id="productId7"></p>
+            <div class="row g-4">
+                <div class="col-12 col-lg-4">
+                    <div class="card h-100 border-0 cardBgColor">
+                        <img src="" id="HP4Image" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <div class="card-details">
+                                <h5 class="card-title" id="HP4Name"></h5>
+                                <h6 class="card-dep" id="HP4Style"></h6>
+                                <p class="productId" id="productId7"></p>
+                            </div>
+
+                            <button class="btn btn-outline-dark BuyButton" onclick="getRenderId(89)">View More</button>
                         </div>
 
-                        <button class="btn btn-outline-dark BuyButton"  onclick="getRenderId(89)">View More</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-12 col-lg-4">
-                <div class="card h-100 border-0 cardBgColor">
-                    <img src="" id="HP5Image" class="card-img-top" alt="Product 1">
-                    <div class="card-body">
-                        <div class="card-details">
-                            <h5 class="card-title" id="HP5Name"></h5>
-                            <h6 class="card-dep" id="HP5Style"></h6>
-                            <p class="productId" id="productId8"></p>
-                        </div>
-
-                        <button class="btn btn-outline-dark BuyButton" onclick="getRenderId(93)" >View More</button>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-12 col-lg-4">
-                <div class="card h-100 border-0 cardBgColor">
-                    <img src="" id="HP6Image" class="card-img-top" alt="Product 1">
-                    <div class="card-body">
-                        <div class="card-details">
-                            <h5 class="card-title" id="HP6Name"></h5>
-                            <h6 class="card-dep" id="HP6Style"></h6>
-                            <p class="productId" id="productId9"></p>
+                <div class="col-12 col-lg-4">
+                    <div class="card h-100 border-0 cardBgColor">
+                        <img src="" id="HP5Image" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <div class="card-details">
+                                <h5 class="card-title" id="HP5Name"></h5>
+                                <h6 class="card-dep" id="HP5Style"></h6>
+                                <p class="productId" id="productId8"></p>
+                            </div>
+
+                            <button class="btn btn-outline-dark BuyButton" onclick="getRenderId(93)">View More</button>
                         </div>
+                    </div>
+                </div>
 
-                        <button class="btn btn-outline-dark BuyButton" onclick="getRenderId(92)" >View More</button>
+                <div class="col-12 col-lg-4">
+                    <div class="card h-100 border-0 cardBgColor">
+                        <img src="" id="HP6Image" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <div class="card-details">
+                                <h5 class="card-title" id="HP6Name"></h5>
+                                <h6 class="card-dep" id="HP6Style"></h6>
+                                <p class="productId" id="productId9"></p>
+                            </div>
+
+                            <button class="btn btn-outline-dark BuyButton" onclick="getRenderId(92)">View More</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
-    <button class="customButton1"  onclick="goToProduct()" >Shop Now</button>
+        <button class="customButton1" onclick="goToProduct()">Shop Now</button>
 
-    <div class="container" id="HomeBanner">
-        <div class="row">
-            <div class="col-md-12">
-                <img src="assests/Pictures/Quicksand.png" class="img-fluid" alt="Banner Image">
+        <div class="container" id="HomeBanner">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="assests/Pictures/Quicksand.png" class="img-fluid" alt="Banner Image">
+                </div>
+
+
+            </div>
+        </div>
+        <div id="HomeCardsHeader2">
+            <div class="section-heading">
+                <hr>
+                <h2 class="card-header-2">Hot Picks</h2>
+                <hr>
             </div>
 
-
-        </div>
-    </div>
-    <div id="HomeCardsHeader2">
-        <div class="section-heading">
-            <hr><h2 class="card-header-2">Hot Picks</h2><hr>
+            <h5 class="card-desc-2">Get This Week’s Most Loved Lights – Delivered Today</h5>
         </div>
 
-        <h5 class="card-desc-2">Get This Week’s Most Loved Lights – Delivered Today</h5>
-    </div>
+        <div class="container py-5" id="HomeCards2">
+            <div class="row g-4">
+                <div class="col-12 col-lg-4">
+                    <div class="card h-100 border-0  cardBgColor">
+                        <img src="" id="HP1Image" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <div class="card-details">
+                                <h5 class="card-title" id="HP1Name"></h5>
+                                <h6 class="card-dep" id="HP1Style"></h6>
+                                <p class="productId" id="productId4"></p>
+                            </div>
 
-    <div class="container py-5" id="HomeCards2">
-        <div class="row g-4">
-            <div class="col-12 col-lg-4">
-                <div class="card h-100 border-0  cardBgColor">
-                    <img src="" id="HP1Image" class="card-img-top" alt="Product 1">
-                    <div class="card-body">
-                        <div class="card-details">
-                            <h5 class="card-title" id="HP1Name"></h5>
-                            <h6 class="card-dep" id="HP1Style"></h6>
-                            <p class="productId" id="productId4"></p>
+                            <button class="btn btn-outline-dark BuyButton" onclick="getRenderId(118)">View More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card h-100 border-0  cardBgColor">
+                        <img src="" id="HP2Image" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <div class="card-details">
+                                <h5 class="card-title" id="HP2Name"></h5>
+                                <h6 class="card-dep" id="HP2Style"></h6>
+                                <p class="productId" id="productId5"></p>
+                            </div>
+
+                            <button class="btn btn-outline-dark BuyButton" onclick="getRenderId(122)">View More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card h-100 border-0  cardBgColor">
+                        <img src="" id="HP3Image" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <div class="card-details">
+                                <h5 class="card-title" id="HP3Name"></h5>
+                                <h6 class="card-dep" id="HP3Style"></h6>
+                                <p class="productId" id="productId6"></p>
+                            </div>
+
+                            <button class="btn btn-outline-dark BuyButton" onclick="getRenderId(124)">View More</button>
                         </div>
 
-                        <button class="btn btn-outline-dark BuyButton" onclick="getRenderId(118)">View More</button>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-4">
-                <div class="card h-100 border-0  cardBgColor">
-                    <img src="" id="HP2Image" class="card-img-top" alt="Product 1">
-                    <div class="card-body">
-                        <div class="card-details">
-                            <h5 class="card-title" id="HP2Name"></h5>
-                            <h6 class="card-dep" id="HP2Style"></h6>
-                            <p class="productId" id="productId5"></p>
-                        </div>
 
-                        <button class="btn btn-outline-dark BuyButton" onclick="getRenderId(122)" >View More</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-4">
-                <div class="card h-100 border-0  cardBgColor">
-                    <img src="" id="HP3Image" class="card-img-top" alt="Product 1">
-                    <div class="card-body">
-                        <div class="card-details">
-                            <h5 class="card-title" id="HP3Name"></h5>
-                            <h6 class="card-dep" id="HP3Style"></h6>
-                            <p class="productId" id="productId6"></p>
-                        </div>
-
-                        <button class="btn btn-outline-dark BuyButton" onclick="getRenderId(124)" >View More</button>
-                    </div>
-
-                </div>
-            </div>
         </div>
+        <button class="customButton2" onclick="goToProduct()">Shop Now</button>
+        <footer class="">
+            <div class="container" id="subFooter">
+                <div class="row" id="footerRow">
 
-    </div>
-    <button class="customButton2" onclick="goToProduct()">Shop Now</button>
-    <footer class="">
-        <div class="container" id="subFooter">
-            <div class="row" id="footerRow">
-
-                <!-- Logo -->
-                <div class="col-md-3 col-sm-6 mb-4 text-center text-md-start" id="rec1">
-                    <img src="assests/Logos/Logo-02.png" alt="Logo" class="d-block mx-auto" style="max-height: 80px;" id="footerLogo">
-                </div>
+                    <!-- Logo -->
+                    <div class="col-md-3 col-sm-6 mb-4 text-center text-md-start" id="rec1">
+                        <img src="assests/Logos/Logo-02.png" alt="Logo" class="d-block mx-auto"
+                            style="max-height: 80px;" id="footerLogo">
+                    </div>
 
 
-                <div class="col-md-3 col-sm-6 mb-4" id="rec2">
-                    <h5 class="fw-bold FooterSubHeading" >Quick Menu</h5>
-                    <ul class="list-unstyled">
+                    <div class="col-md-3 col-sm-6 mb-4" id="rec2">
+                        <h5 class="fw-bold FooterSubHeading">Quick Menu</h5>
+                        <ul class="list-unstyled">
+                            <div class="navText">
+                                <li><a href="index.html" class=" text-decoration-none FooterNavText">Home</a></li>
+                                <li><a href="Product.html" class=" text-decoration-none FooterNavText">collections</a>
+                                </li>
+                                <li><a href="about.html" class=" text-decoration-none FooterNavText">About</a></li>
+                                <li><a href="contact.html" class=" text-decoration-none FooterNavText">Contact</a></li>
+                            </div>
+
+                        </ul>
+                        <div class="follow">
+                            <p class="followText">Follow :</p>
+                            <span class="followLogoContainer">
+                                <img src="assests/Pictures/facebook.png" alt="Facebook" class="img-fluid followLogo"
+                                    onclick="facebookRedirect()">
+                                <img src="assests/Pictures/instagram.png" alt="Instagram" class="img-fluid followLogo"
+                                    onclick="instagramRedirect()">
+                                <img src="assests/Pictures/tik-tok.png" alt="TikTok" class="img-fluid followLogo"
+                                    onclick="tiktokRedirect()">
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Sri Lanka Office -->
+                    <div class="col-md-3 col-sm-6 mb-4" id="rec3">
+                        <h5 class="fw-bold FooterSubHeading">Sri Lanka Office</h5>
                         <div class="navText">
-                            <li><a href="index.html" class=" text-decoration-none FooterNavText">Home</a></li>
-                            <li><a href="Product.html" class=" text-decoration-none FooterNavText">Product</a></li>
-                            <li><a href="about.html" class=" text-decoration-none FooterNavText">About</a></li>
-                            <li><a href="contact.html" class=" text-decoration-none FooterNavText">Contact</a></li>
+
+
+                            <p class="mb-1 FooterNavText">8B/66/04, Mattegoda, Kottawa</p>
+                            <p class="mb-1 FooterNavText">Telephone: +94 11 2182050</p>
+                            <p class="mb-1 FooterNavText">Mobile: +94 77 6950920</p>
+                            <p class="mb-0 FooterNavText" id="FooterEmail1">Email: <a
+                                    href="https://mail.google.com/mail/?view=cm&to=domax.trading@gmail.com"
+                                    class="text-dark">domax.trading@gmail.com</a></p>
                         </div>
-
-                    </ul>
-                </div>
-
-                <!-- Sri Lanka Office -->
-                <div class="col-md-3 col-sm-6 mb-4" id="rec3">
-                    <h5 class="fw-bold FooterSubHeading">Sri Lanka Office</h5>
-                    <div class="navText">
-
-
-                        <p class="mb-1 FooterNavText">8B/66/04, Mattegoda, Kottawa</p>
-                        <p class="mb-1 FooterNavText">Telephone: +94 11 2182050</p>
-                        <p class="mb-1 FooterNavText">Mobile: +94 77 6950920</p>
-                        <p class="mb-0 FooterNavText" id="FooterEmail1">Email: <a href="https://mail.google.com/mail/?view=cm&to=domax.trading@gmail.com" class="text-dark">domax.trading@gmail.com</a></p>
                     </div>
-                </div>
 
-                <!-- China Office -->
-                <div class="col-md-3 col-sm-6 mb-4" id="rec4">
-                    <h5 class="fw-bold FooterSubHeading">China Office</h5>
-                    <div class="navText">
+                    <!-- China Office -->
+                    <div class="col-md-3 col-sm-6 mb-4" id="rec4">
+                        <h5 class="fw-bold FooterSubHeading">China Office</h5>
+                        <div class="navText">
 
-                        <p class="mb-1 FooterNavText">Hong Kong Osuper International Group Ltd.
-                            Room 326-330, Xinhua Hotal,
-                            No.2-6 RenMin Road South,
-                            Guangzhou. China</p>
-                        <p class="mb-1 FooterNavText">Telephone:  +86-20-29878176</p>
-                        <p class="mb-1 FooterNavText">Mobile: +86-15920345550</p>
-                        <p class="mb-0 FooterNavText" id="FooterEmail2">Email: <a href="https://mail.google.com/mail/?view=cm&to=domax.trading@gmail.com" class="text-dark">domax.trading@gmail.com</a></p>
+                            <p class="mb-1 FooterNavText">Hong Kong Osuper International Group Ltd.
+                                Room 326-330, Xinhua Hotal,
+                                No.2-6 RenMin Road South,
+                                Guangzhou. China</p>
+                            <p class="mb-1 FooterNavText">Telephone: +86-20-29878176</p>
+                            <p class="mb-1 FooterNavText">Mobile: +86-15920345550</p>
+                            <p class="mb-0 FooterNavText" id="FooterEmail2">Email: <a
+                                    href="https://mail.google.com/mail/?view=cm&to=domax.trading@gmail.com"
+                                    class="text-dark">domax.trading@gmail.com</a></p>
 
+                        </div>
                     </div>
+
+
                 </div>
 
-
+                <div class="text-center mt-4 border-top FooterText">
+                    <small>&copy; 2025 Domax Trading. All rights reserved.</small>
+                </div>
             </div>
-            <div class="text-center mt-4 border-top FooterText">
-                <small>&copy; 2025 Domax Trading. All rights reserved.</small>
-            </div>
-        </div>
-    </footer>
-</div>
+        </footer>
+    </div>
 
 
-<script>
+    <script>
 
-    window.addEventListener("load", function () {
-        document.getElementById("loader-wrapper").style.display = "none";
-        document.getElementById("content").style.display = "block";
-    });
-</script>
+        window.addEventListener("load", function () {
+            document.getElementById("loader-wrapper").style.display = "none";
+            document.getElementById("content").style.display = "block";
+        });
+    </script>
 
 </body>
+
 </html>

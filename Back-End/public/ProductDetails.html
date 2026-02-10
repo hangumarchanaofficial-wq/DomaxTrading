@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Domax Trading </title>
@@ -15,17 +16,15 @@
 
 </head>
 <style>
-  html, body {
+  html,
+  body {
     margin: 0;
     padding: 0;
     height: 100%;
   }
 
   /* Fullscreen centered loader */
-  #loader-wrapper {
-
-
-  }
+  #loader-wrapper {}
 
   .loader {
     display: flex;
@@ -50,7 +49,7 @@
 
 
 <body>
-<div id="loader-wrapper" style="
+  <div id="loader-wrapper" style="
     position: fixed;
     top: 0;
     left: 0;
@@ -63,164 +62,182 @@
     align-items: center;
     flex-direction: column;
 ">
-  <div class="loader">
-    <img src="assests/Logos/Logo-02.png" alt="Logo">
-    <img id="loaderGIF" src="assests/Pictures/loading.gif" alt="loader">
-  </div>
-</div>
-
-<div id="content" style="display: none;">
-  <header class="shadow-lg" >
-    <nav class="navbar navbar-expand-md" id="navBar">
-      <div class="container">
-        <!-- Logo -->
-        <a class="navbar-brand" href="#">
-          <img src="assests/Logos/Logo-02.png" alt="Domax Trading Logo" onclick="goToHome()">
-        </a>
-
-        <!-- Toggle button for small screens -->
-        <button class="navbar-toggler1  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Collapsible content -->
-        <div class="collapse navbar-collapse justify-content-end" id="navMenu">
-          <ul class="navbar-nav align-items-md-center">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Product.html">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-          </ul>
-
-          <!-- Search bar -->
-          <form class="d-flex mt-3 mt-md-0 ms-md-3" role="search">
-            <input class="form-control" type="search" placeholder="Search" aria-label="Search" id="searchText">
-
-          </form>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <div class="container py-5 product-card-details bg-light">
-    <div class="row g-5 align-items-center shadow-lg rounded-4 p-4 bg-white premium-card">
-
-      <!-- Product Image -->
-      <div class="col-lg-12 col-xl-6">
-        <div class="product-card-details-image-div rounded-4 overflow-hidden shadow-sm">
-          <img src="" alt="" class="img-fluid" id="product-details-image">
-        </div>
-      </div>
-
-
-
-      <div class="col-lg-12 col-xl-6">
-
-        <h2 class="product-name fw-bold text-dark mb-4 display-6"></h2>
-        <hr class="my-4">
-        <p class="product-category fs-5  pText"></p>
-        <p class="product-shape fs-5 pText"> </p>
-        <p class="product-color fs-5 pTest"> </p>
-        <p class="product-material fs-5 pTest"> </p>
-        <p class="product-finish fs-5 pTest"> </p>
-        <p class="product-style fs-5 pTest"></p>
-
-        <hr class="my-4">
-
-
-        <p class="product-description "></p>
-        <hr class="my-4">
-
-        <div class="mt-4 d-flex flex-wrap gap-3">
-          <a href="Product.html" class="btn btn-outline-dark btn-lg px-5 py-3 back">Back</a>
-          <a  class="btn btn-dark btn-lg px-5 py-3 premium-btn buy">Buy Now</a>
-
-        </div>
-      </div>
-
+    <div class="loader">
+      <img src="assests/Logos/Logo-02.png" alt="Logo">
+      <img id="loaderGIF" src="assests/Pictures/loading.gif" alt="loader">
     </div>
   </div>
 
+  <div id="content" style="display: none;">
+    <header class="shadow-lg">
+      <nav class="navbar navbar-expand-md" id="navBar">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="assests/Logos/Logo-02.png" alt="Domax Trading Logo" onclick="goToHome()">
+          </a>
 
+          <!-- Toggle button for small screens -->
+          <button class="navbar-toggler1  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-  <div id="searchDropdown" class="dropdown-content"></div>
-  <footer class="productDetailFooter" >
-    <div class="container" id="subFooter">
-      <div class="row" id="footerRow">
+          <!-- Collapsible content -->
+          <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+            <ul class="navbar-nav align-items-md-center">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Product.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+            </ul>
 
-        <!-- Logo -->
-        <div class="col-md-3 col-sm-6 mb-4 text-center text-md-start" id="rec1">
-          <img src="assests/Logos/Logo-02.png" alt="Logo" class="d-block mx-auto" style="max-height: 80px;" id="footerLogo">
+            <!-- Search bar -->
+            <form class="d-flex mt-3 mt-md-0 ms-md-3" role="search">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search" id="searchText">
+
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container py-5 product-card-details bg-light">
+      <div class="row g-5 align-items-center shadow-lg rounded-4 p-4 bg-white premium-card">
+
+        <!-- Product Image -->
+        <div class="col-lg-12 col-xl-6">
+          <div class="product-card-details-image-div rounded-4 overflow-hidden shadow-sm">
+            <img src="" alt="" class="img-fluid" id="product-details-image">
+          </div>
         </div>
 
 
-        <div class="col-md-3 col-sm-6 mb-4" id="rec2">
-          <h5 class="fw-bold FooterSubHeading" >Quick Menu</h5>
-          <ul class="list-unstyled">
-            <div class="navText">
-              <li><a href="index.html" class=" text-decoration-none FooterNavText">Home</a></li>
-              <li><a href="Product.html" class=" text-decoration-none FooterNavText">Product</a></li>
-              <li><a href="about.html" class=" text-decoration-none FooterNavText">About</a></li>
-              <li><a href="contact.html" class=" text-decoration-none FooterNavText">Contact</a></li>
+
+        <div class="col-lg-12 col-xl-6">
+
+          <h2 class="product-name fw-bold text-dark mb-4 display-6"></h2>
+          <hr class="my-4">
+          <p class="product-category fs-5  pText"></p>
+          <p class="product-shape fs-5 pText"> </p>
+          <p class="product-color fs-5 pTest"> </p>
+          <p class="product-material fs-5 pTest"> </p>
+          <p class="product-finish fs-5 pTest"> </p>
+          <p class="product-style fs-5 pTest"></p>
+
+          <hr class="my-4">
+
+
+          <p class="product-description "></p>
+          <hr class="my-4">
+
+          <div class="mt-4 d-flex flex-wrap gap-3">
+            <a href="Product.html" class="btn btn-outline-dark btn-lg px-5 py-3 back">Back</a>
+            <a class="btn btn-dark btn-lg px-5 py-3 premium-btn buy">Buy Now</a>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <div id="searchDropdown" class="dropdown-content"></div>
+    <footer class="productDetailFooter">
+      <div class="container" id="subFooter">
+        <div class="row" id="footerRow">
+
+          <!-- Logo -->
+          <div class="col-md-3 col-sm-6 mb-4 text-center text-md-start" id="rec1">
+            <img src="assests/Logos/Logo-02.png" alt="Logo" class="d-block mx-auto" style="max-height: 80px;"
+              id="footerLogo">
+          </div>
+
+
+          <div class="col-md-3 col-sm-6 mb-4" id="rec2">
+            <h5 class="fw-bold FooterSubHeading">Quick Menu</h5>
+            <ul class="list-unstyled">
+              <div class="navText">
+                <li><a href="index.html" class=" text-decoration-none FooterNavText">Home</a></li>
+                <li><a href="Product.html" class=" text-decoration-none FooterNavText">collections</a></li>
+                <li><a href="about.html" class=" text-decoration-none FooterNavText">About</a></li>
+                <li><a href="contact.html" class=" text-decoration-none FooterNavText">Contact</a></li>
+              </div>
+
+            </ul>
+            <div class="follow">
+              <p class="followText">Follow :</p>
+              <span class="followLogoContainer">
+                <img src="assests/Pictures/facebook.png" alt="Facebook" class="img-fluid followLogo"
+                  onclick="facebookRedirect()">
+                <img src="assests/Pictures/instagram.png" alt="Instagram" class="img-fluid followLogo"
+                  onclick="instagramRedirect()">
+                <img src="assests/Pictures/tik-tok.png" alt="TikTok" class="img-fluid followLogo"
+                  onclick="tiktokRedirect()">
+              </span>
             </div>
-
-          </ul>
-        </div>
-
-        <!-- Sri Lanka Office -->
-        <div class="col-md-3 col-sm-6 mb-4" id="rec3">
-          <h5 class="fw-bold FooterSubHeading">Sri Lanka Office</h5>
-          <div class="navText">
-
-
-            <p class="mb-1 FooterNavText">8B/66/04, Mattegoda, Kottawa</p>
-            <p class="mb-1 FooterNavText">Telephone: +94 11 2182050</p>
-            <p class="mb-1 FooterNavText">Mobile: +94 77 6950920</p>
-            <p class="mb-0 FooterNavText" id="FooterEmail1">Email: <a href="https://mail.google.com/mail/?view=cm&to=domax.trading@gmail.com" class="text-dark">domax.trading@gmail.com</a></p>
           </div>
-        </div>
 
-        <!-- China Office -->
-        <div class="col-md-3 col-sm-6 mb-4" id="rec4">
-          <h5 class="fw-bold FooterSubHeading">China Office</h5>
-          <div class="navText">
+          <!-- Sri Lanka Office -->
+          <div class="col-md-3 col-sm-6 mb-4" id="rec3">
+            <h5 class="fw-bold FooterSubHeading">Sri Lanka Office</h5>
+            <div class="navText">
 
-            <p class="mb-1 FooterNavText">Hong Kong Osuper International Group Ltd.
-              Room 326-330, Xinhua Hotal,
-              No.2-6 RenMin Road South,
-              Guangzhou. China</p>
-            <p class="mb-1 FooterNavText">Telephone:  +86-20-29878176</p>
-            <p class="mb-1 FooterNavText">Mobile: +86-15920345550</p>
-            <p class="mb-0 FooterNavText" id="FooterEmail2">Email: <a href="https://mail.google.com/mail/?view=cm&to=domax.trading@gmail.com" class="text-dark">domax.trading@gmail.com</a></p>
 
+              <p class="mb-1 FooterNavText">8B/66/04, Mattegoda, Kottawa</p>
+              <p class="mb-1 FooterNavText">Telephone: +94 11 2182050</p>
+              <p class="mb-1 FooterNavText">Mobile: +94 77 6950920</p>
+              <p class="mb-0 FooterNavText" id="FooterEmail1">Email: <a
+                  href="https://mail.google.com/mail/?view=cm&to=domax.trading@gmail.com"
+                  class="text-dark">domax.trading@gmail.com</a></p>
+            </div>
           </div>
+
+          <!-- China Office -->
+          <div class="col-md-3 col-sm-6 mb-4" id="rec4">
+            <h5 class="fw-bold FooterSubHeading">China Office</h5>
+            <div class="navText">
+
+              <p class="mb-1 FooterNavText">Hong Kong Osuper International Group Ltd.
+                Room 326-330, Xinhua Hotal,
+                No.2-6 RenMin Road South,
+                Guangzhou. China</p>
+              <p class="mb-1 FooterNavText">Telephone: +86-20-29878176</p>
+              <p class="mb-1 FooterNavText">Mobile: +86-15920345550</p>
+              <p class="mb-0 FooterNavText" id="FooterEmail2">Email: <a
+                  href="https://mail.google.com/mail/?view=cm&to=domax.trading@gmail.com"
+                  class="text-dark">domax.trading@gmail.com</a></p>
+
+            </div>
+          </div>
+
+
         </div>
 
-
+        <div class="text-center mt-4 border-top FooterText">
+          <small>&copy; 2025 Domax Trading. All rights reserved.</small>
+        </div>
       </div>
-      <div class="text-center mt-4 border-top FooterText">
-        <small>&copy; 2025 Domax Trading. All rights reserved.</small>
-      </div>
-    </div>
-  </footer>
-</div>
+    </footer>
+  </div>
 
 
-<script>
+  <script>
 
-  window.addEventListener("load", function () {
-    document.getElementById("loader-wrapper").style.display = "none";
-    document.getElementById("content").style.display = "block";
-  });
-</script>
+    window.addEventListener("load", function () {
+      document.getElementById("loader-wrapper").style.display = "none";
+      document.getElementById("content").style.display = "block";
+    });
+  </script>
 
 </body>
+
 </html>

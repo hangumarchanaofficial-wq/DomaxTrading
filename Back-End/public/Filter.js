@@ -11,11 +11,11 @@ function toggleRotate(IMG){
 Filter =document.querySelectorAll('.filter-title')
 
 Filter.forEach(item =>{
-    item.addEventListener('click', function(){
-        IMG = this.querySelector('img');
-        IMG.classList.toggle('arrow-up');
-    })
-}
+        item.addEventListener('click', function(){
+            IMG = this.querySelector('img');
+            IMG.classList.toggle('arrow-up');
+        })
+    }
 
 
 )
@@ -146,10 +146,10 @@ function renderProducts(filteredItems) {
     const endDIV = document.getElementById('endDIV');
 
     if (filteredItems.length === 0) {
-       const productErrorBox = document.querySelector('.product-error-box');
-       productErrorBox.style.display = 'flex';
-       const footer = document.getElementById('footer');
-       footer.classList.add('footerActive')
+        const productErrorBox = document.querySelector('.product-error-box');
+        productErrorBox.style.display = 'flex';
+        const footer = document.getElementById('footer');
+        footer.classList.add('footerActive')
         const mobileFilterBtn = document.getElementById('mobileFilterBtn');
         mobileFilterBtn.style.display = 'none';
         itemCount.innerText = `0 Items`;
@@ -159,7 +159,7 @@ function renderProducts(filteredItems) {
             'important'
         )
 
-       return;
+        return;
 
 
 
@@ -222,9 +222,9 @@ function applyFilters() {
     const selectedSubTypes = Array.from(document.querySelectorAll('#FilterSlider input[name="shape"]:checked'))
         .map(cb => cb.parentElement.textContent.trim().toLowerCase());
     const selectedCategoryTypes = Array.from(document.querySelectorAll('#FilterSlider input[name="category"]:checked'))
-    .map(cb => cb.parentElement.textContent.trim().toLowerCase());
+        .map(cb => cb.parentElement.textContent.trim().toLowerCase());
     const selectedStyleTypes = Array.from(document.querySelectorAll('#FilterSlider input[name="style"]:checked'))
-    .map(cb => cb.parentElement.textContent.trim().toLowerCase());
+        .map(cb => cb.parentElement.textContent.trim().toLowerCase());
     const filtered = database.filter(item => {
         const matchesColor = selectedColors.length === 0 || selectedColors.includes(item.Color.toLowerCase());
         const matchesSub = selectedSubTypes.length === 0 || selectedSubTypes.includes(item.Sub.toLowerCase());

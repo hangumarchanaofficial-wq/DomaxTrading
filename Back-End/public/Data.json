@@ -1,7 +1,7 @@
 [
   {
     "Id": 1,
-    "Name":" Modern Crystal Chandelier",
+    "Name": " Modern Crystal Chandelier",
     "Category": "Chandeliers",
     "Sub": "Crystal",
     "Dep": "A grand chandelier featuring a tiered, inverted pyramid design with hundreds of delicate crystal/glass elements, finished with a polished brass or gold accent band. Ideal statement lighting for luxury interiors.",
@@ -9,7 +9,7 @@
     "Material": "Crystal glass with metal/brass accents",
     "Finish": "Polished brass/gold tone",
     "Style": "Modern & Contemporary",
-    "IMG": "assests/Pictures/p1.jpeg"
+    "IMG": "assests/Pictures/p1.png"
   },
   {
     "Id": 2,
@@ -21,7 +21,7 @@
     "Material": "Crystal glass with metal/brass frame",
     "Finish": "Polished brass/gold tone",
     "Style": "Modern & Contemporary",
-    "IMG": "assests/Pictures/p2.jpeg"
+    "IMG": "assests/Pictures/p2.png"
   },
   {
     "Id": 3,
@@ -33,7 +33,7 @@
     "Material": "Crystal glass with polished brass",
     "Finish": "Polished Brass",
     "Style": "Modern & Contemporary",
-    "IMG": "assests/Pictures/p3.jpeg"
+    "IMG": "assests/Pictures/p3.png"
   },
   {
     "Id": 4,
@@ -45,7 +45,7 @@
     "Material": "Frosted/textured glass with polished brass",
     "Finish": "Polished Brass",
     "Style": "Modern & Contemporary",
-    "IMG": "assests/Pictures/p4.jpeg"
+    "IMG": "assests/Pictures/p4.png"
   },
   {
     "Id": 5,
@@ -909,7 +909,7 @@
     "Material": "Glass and Metal",
     "Finish": "Antique brass/bronze with clear glass",
     "Style": "Industrial",
-    "IMG": "assests/Pictures/76.jpg"
+    "IMG": "assests/Pictures/76.png"
   },
   {
     "Id": 77,
@@ -921,7 +921,7 @@
     "Material": "Metal, Wood, Glass, and Plastic",
     "Finish": "Matte black, natural wood, and clear/amber glass",
     "Style": "Industrial",
-    "IMG": "assests/Pictures/77.jpg"
+    "IMG": "assests/Pictures/77.png"
   },
   {
     "Id": 78,
@@ -933,7 +933,7 @@
     "Material": "Wood and Glass",
     "Finish": "Natural wood with clear/amber glass bulbs",
     "Style": "Industrial",
-    "IMG": "assests/Pictures/78.jpg"
+    "IMG": "assests/Pictures/78.png"
   },
   {
     "Id": 79,
@@ -945,7 +945,7 @@
     "Material": "Glass, Metal, and Plastic",
     "Finish": "Matte black and bronze with clear/amber glass",
     "Style": "Industrial",
-    "IMG": "assests/Pictures/79.jpg"
+    "IMG": "assests/Pictures/79.png"
   },
   {
     "Id": 80,
@@ -1125,7 +1125,7 @@
     "Material": "Plastic and LED",
     "Finish": "Clear plastic casing",
     "Style": "Modern & Contemporary",
-    "IMG": "assests/Pictures/94.jpg"
+    "IMG": "assests/Pictures/94.png"
   },
   {
     "Id": 95,
@@ -1137,7 +1137,7 @@
     "Material": "Plastic and LED",
     "Finish": "Transparent plastic casing",
     "Style": "Modern & Contemporary",
-    "IMG": "assests/Pictures/95.jpg"
+    "IMG": "assests/Pictures/95.png"
   },
   {
     "Id": 96,
@@ -1149,7 +1149,7 @@
     "Material": "Plastic and LED",
     "Finish": "Transparent plastic casing",
     "Style": "Modern & Contemporary",
-    "IMG": "assests/Pictures/96.jpg"
+    "IMG": "assests/Pictures/96.png"
   },
   {
     "Id": 97,
@@ -1161,7 +1161,7 @@
     "Material": "Plastic or Metal",
     "Finish": "Matte white finish",
     "Style": "Modern & Contemporary",
-    "IMG": "assests/Pictures/97.jpg"
+    "IMG": "assests/Pictures/97.png"
   },
   {
     "Id": 98,
@@ -1173,7 +1173,7 @@
     "Material": "Stainless Steel and Plastic",
     "Finish": "Brushed metal",
     "Style": "Modern & Contemporary",
-    "IMG": "assests/Pictures/98.jpg"
+    "IMG": "assests/Pictures/98.png"
   },
   {
     "Id": 99,
@@ -1185,7 +1185,7 @@
     "Material": "Plastic or Metal",
     "Finish": "Matte black finish",
     "Style": "Modern & Contemporary",
-    "IMG": "assests/Pictures/99.jpg"
+    "IMG": "assests/Pictures/99.png"
   },
   {
     "Id": 100,
@@ -1197,7 +1197,7 @@
     "Material": "Metal",
     "Finish": "Matte black finish",
     "Style": "Modern & Contemporary",
-    "IMG": "assests/Pictures/100.jpg"
+    "IMG": "assests/Pictures/100.png"
   },
   {
     "Id": 101,
@@ -1209,7 +1209,7 @@
     "Material": "Aluminum",
     "Finish": "Matte black with a clear lens",
     "Style": "Modern & Contemporary",
-    "IMG": "assests/Pictures/101.jpg"
+    "IMG": "assests/Pictures/101.png"
   },
   {
     "Id": 102,
@@ -1221,7 +1221,7 @@
     "Material": "Metal and Plastic",
     "Finish": "Matte black with a silver reflector",
     "Style": "Modern & Contemporary",
-    "IMG": "assests/Pictures/102.jpg"
+    "IMG": "assests/Pictures/102.png"
   },
   {
     "Id": 103,
@@ -1233,7 +1233,7 @@
     "Material": "Aluminum",
     "Finish": "Matte grey with a clear lens",
     "Style": "Modern & Contemporary",
-    "IMG": "assests/Pictures/103.jpg"
+    "IMG": "assests/Pictures/103.png"
   },
   {
     "Id": 104,
@@ -1245,7 +1245,7 @@
     "Material": "Metal",
     "Finish": "Matte dark grey finish",
     "Style": "Modern & Contemporary",
-    "IMG": "assests/Pictures/104.jpg"
+    "IMG": "assests/Pictures/104.png"
   },
   {
     "Id": 105,
@@ -1750,29 +1750,1351 @@
     "Finish": "Polished gold with black and clear crystal",
     "Style": "Modern & Contemporary",
     "IMG": "assests/Pictures/146.jpg"
+  },
+  {
+    "Id": 147,
+    "Name": "Multi Pendant Crystal Chandelier",
+    "Category": "Chandeliers",
+    "Sub": "Crystal",
+    "Dep": "A modern multi-pendant chandelier featuring cascading cylindrical crystal shades suspended at varying heights. Each pendant is accented with polished gold rings and complemented by delicate crystal butterfly elements along the suspension wires, creating a luxurious and artistic visual effect. Ideal for double-height living spaces, staircases, or statement interiors.",
+    "Color": "gold",
+    "Material": "Metal and Crystal",
+    "Finish": "Polished gold with clear crystal",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/147.jpg"
+  },
+  {
+    "Id": 148,
+    "Name": "Modern Teardrop Crystal Pendant Chandelier",
+    "Category": "Chandeliers",
+    "Sub": "Crystal",
+    "Dep": "A modern cascading multi-pendant chandelier featuring elegant teardrop-shaped crystal shades suspended at varying heights. Each pendant is detailed with a polished gold accent ring and complemented by delicate crystal butterfly elements along the hanging wires, creating a luxurious and artistic statement. Perfect for living rooms, stairwells, and double-height spaces.",
+    "Color": "gold",
+    "Material": "Metal and Crystal",
+    "Finish": "Polished gold with clear crystal",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/148.jpg"
+  },
+  {
+    "Id": 149,
+    "Name": "Modern Ring Frame Crystal Pendant Chandelier",
+    "Category": "Chandeliers",
+    "Sub": "Geometric",
+    "Dep": "A contemporary multi-pendant chandelier featuring elegant circular gold metal frames, each enclosing a textured crystal glass shade. The pendants are suspended at staggered heights, creating a sculptural and floating effect. The combination of polished gold rings and softly glowing crystal diffusers makes this fixture an ideal statement piece for modern living rooms, dining areas, or double-height interiors.",
+    "Color": "gold",
+    "Material": "Metal and Crystal",
+    "Finish": "Polished gold with textured clear crystal",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/149.jpg"
+  },
+  {
+    "Id": 150,
+    "Name": "Modern Cascading Crystal Pendant Chandelier",
+    "Category": "Chandeliers",
+    "Sub": "Crystal",
+    "Dep": "A modern cascading pendant chandelier featuring vertically suspended faceted crystal glass shades with polished gold caps. The design is enhanced with delicate crystal star and teardrop accents arranged along the suspension wires, creating a light, elegant, and artistic flow. Ideal for staircases, double-height living areas, or contemporary feature spaces.",
+    "Color": "gold",
+    "Material": "Metal and Crystal",
+    "Finish": "Polished gold with clear and blue-tinted crystal",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/150.jpg"
+  },
+  {
+    "Id": 151,
+    "Name": "Modern Ring Crystal Chandelier",
+    "Category": "Chandeliers",
+    "Sub": "Crystal",
+    "Dep": "A luxurious modern chandelier featuring a large illuminated circular ring frame paired with multiple crystal bowl-shaped pendants suspended beneath. The design combines a sparkling crystal texture with polished gold accents, creating a bold and elegant centerpiece. Ideal for high-ceiling living rooms, luxury lobbies, and contemporary statement interiors.",
+    "Color": "gold",
+    "Material": "Metal and Crystal",
+    "Finish": "Polished gold with clear crystal",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/151.jpg"
+  },
+  {
+    "Id": 152,
+    "Name": "Modern Crystal Ring Chandelier",
+    "Category": "Chandeliers",
+    "Sub": "Crystal",
+    "Dep": "A luxurious modern chandelier featuring a large circular crystal ring suspended from a ceiling canopy, paired with multiple spherical crystal pendant lights hanging beneath. Each globe is detailed with polished gold accents, creating a high-end contemporary centerpiece. Ideal for dining rooms, living areas, and modern luxury interiors.",
+    "Color": "gold",
+    "Material": "Metal and Crystal",
+    "Finish": "Polished gold with clear crystal",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/152.jpg"
+  },
+  {
+    "Id": 153,
+    "Name": "Modern Crystal Ring Chandelier with Cone Pendants",
+    "Category": "Chandeliers",
+    "Sub": "Crystal",
+    "Dep": "A modern luxury chandelier featuring a suspended circular crystal ring combined with multiple cone-shaped pendant lights. Each pendant has a polished gold top and a sparkling crystal diffuser, creating a balanced mix of geometric design and glamorous lighting. Ideal for dining rooms, living areas, and contemporary luxury interiors.",
+    "Color": "gold",
+    "Material": "Metal and Crystal",
+    "Finish": "Polished gold with clear crystal",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/153.jpg"
+  },
+  {
+    "Id": 154,
+    "Name": "Modern Crystal Fringe Pendant Chandelier",
+    "Category": "Chandeliers",
+    "Sub": "Crystal",
+    "Dep": "A luxurious modern chandelier featuring a wide circular frame with cascading crystal fringe details and a central spherical crystal pendant below. The fixture is finished with polished gold accents, creating a glamorous layered look and a warm sparkling glow. Ideal for dining rooms, living areas, and modern luxury interiors.",
+    "Color": "gold",
+    "Material": "Metal and Crystal",
+    "Finish": "Polished gold with clear crystal",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/154.jpg"
+  },
+  {
+    "Id": 155,
+    "Name": "Decorative Floral Pattern Wall Sconce",
+    "Category": "Wall Light",
+    "Sub": "Vertical",
+    "Dep": "A modern decorative wall sconce featuring a cylindrical frosted glass shade with an elegant floral and swirl pattern. The fixture is mounted on a sleek matte black rectangular backplate with a minimalist arm, providing soft ambient lighting with a warm glow. Ideal for hallways, bedrooms, living rooms, and contemporary interiors.",
+    "Color": "black",
+    "Material": "Glass and Metal",
+    "Finish": "Matte black with frosted patterned glass",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/155.jpg"
+  },
+  {
+    "Id": 156,
+    "Name": "Modern Grid Pattern Wall Sconce",
+    "Category": "Wall Light",
+    "Sub": "Vertical",
+    "Dep": "A modern wall sconce featuring two cylindrical fabric or acrylic shades with a clean grid pattern. The shades diffuse a warm ambient glow and are mounted on a minimal matte black backplate, creating a soft and elegant lighting effect. Ideal for bedrooms, hallways, living rooms, and contemporary interiors.",
+    "Color": "black",
+    "Material": "Fabric/Acrylic and Metal",
+    "Finish": "Matte black with patterned white shade",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/156.jpg"
+  },
+  {
+    "Id": 157,
+    "Name": "Industrial Clear Glass Edison Wall Sconce",
+    "Category": "Wall Light",
+    "Sub": "Vertical",
+    "Dep": "An industrial-style wall sconce featuring a clear cylindrical glass shade that showcases a vintage Edison filament bulb. The fixture is mounted on a sleek matte black rectangular backplate, creating a warm and raw ambient glow. Ideal for industrial, modern loft, cafes, hallways, and accent walls.",
+    "Color": "black",
+    "Material": "Glass and Metal",
+    "Finish": "Matte black with clear glass",
+    "Style": "Industrial",
+    "IMG": "assests/Pictures/157.jpg"
+  },
+  {
+    "Id": 158,
+    "Name": "Modern Frosted Glass Wall Light",
+    "Category": "Wall Light",
+    "Sub": "Rectangle",
+    "Dep": "A modern wall light featuring a rectangular frosted glass shade with an abstract leaf pattern. The fixture is mounted on a matte black diamond-shaped backplate, producing a soft warm ambient glow. Ideal for bedrooms, hallways, living rooms, and contemporary interior spaces.",
+    "Color": "black",
+    "Material": "Glass and Metal",
+    "Finish": "Matte black with frosted patterned glass",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/158.jpg"
+  },
+  {
+    "Id": 159,
+    "Name": "Classic Royal Crystal Chandelier",
+    "Category": "Chandeliers",
+    "Sub": "Crystal",
+    "Dep": "A grand classic crystal chandelier featuring ornate gold-finished metal arms, candle-style bulbs, and cascading faceted crystal drops. The design reflects timeless royal elegance with rich detailing and a luxurious presence, making it ideal for palatial interiors, hotels, ballrooms, and heritage-style living spaces.",
+    "Color": "gold",
+    "Material": "Metal and Crystal",
+    "Finish": "Antique gold with clear crystal",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/159.jpg"
+  },
+  {
+    "Id": 160,
+    "Name": "Modern Dual-End Crystal Wall Light",
+    "Category": "Wall Light",
+    "Sub": "Crystal",
+    "Dep": "A modern decorative wall light featuring a matte black cylindrical body accented with faceted crystal elements on both the top and bottom. The crystal ends are available in clear and warm golden tones, creating a striking up-and-down lighting effect with a luxurious sparkle. Ideal for bedrooms, hallways, living rooms, and contemporary interiors.",
+    "Color": "black",
+    "Material": "Metal and Crystal",
+    "Finish": "Matte black with faceted crystal",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/160.jpg"
+  },
+  {
+    "Id": 161,
+    "Name": "Modern Bubble Glass Up-Down Wall Light",
+    "Category": "Wall Light",
+    "Sub": "Crystal",
+    "Dep": "A modern up-and-down wall light featuring clear cylindrical bubble glass shades that create a dynamic sparkling light effect. The fixture is paired with a sleek matte black or dark green metal body, offering a contemporary decorative look. Ideal for hallways, bedrooms, living rooms, and modern interior accent lighting.",
+    "Color": "black",
+    "Material": "Glass and Metal",
+    "Finish": "Matte black with clear bubble glass",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/161.jpg"
+  },
+  {
+    "Id": 162,
+    "Name": "Modern Twisted Crystal Up-Down Wall Light",
+    "Category": "Wall Light",
+    "Sub": "Crystal",
+    "Dep": "A contemporary up-and-down wall light featuring twisted faceted crystal glass elements at the top and bottom, creating a dynamic spiral lighting effect. The fixture is paired with a sleek matte black or dark green cylindrical metal body, producing a luxurious sparkle and warm ambient glow. Ideal for modern living rooms, bedrooms, hallways, and decorative accent walls.",
+    "Color": "black",
+    "Material": "Metal and Crystal",
+    "Finish": "Matte black with twisted clear crystal",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/162.jpg"
+  },
+  {
+    "Id": 163,
+    "Name": "Modern Faceted Crystal Up-Down Wall Light",
+    "Category": "Wall Light",
+    "Sub": "Crystal",
+    "Dep": "A modern up-and-down wall light featuring faceted crystal glass ends combined with a sleek matte black cylindrical body. The design includes clear and warm amber-toned crystal variations, producing a refined sparkling glow and elegant ambient lighting. Ideal for hallways, bedrooms, living rooms, and modern interior accent lighting.",
+    "Color": "black",
+    "Material": "Metal and Crystal",
+    "Finish": "Matte black with faceted clear crystal",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/163.jpg"
+  },
+  {
+    "Id": 164,
+    "Name": "Modern Geometric Crystal Wall Light",
+    "Category": "Wall Light",
+    "Sub": "Geometric",
+    "Dep": "A contemporary wall light featuring a unique triangular geometric crystal frame with textured edges that refract light beautifully. Mounted on a polished chrome circular backplate, the fixture creates a striking ambient glow with decorative light patterns on the wall. Ideal for modern living rooms, bedrooms, corridors, and accent walls.",
+    "Color": "silver",
+    "Material": "Metal and Crystal",
+    "Finish": "Polished chrome with textured crystal",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/164.jpg"
+  },
+  {
+    "Id": 165,
+    "Name": "Modern Oval Crystal Wall Light",
+    "Category": "Wall Light",
+    "Sub": "Crystal",
+    "Dep": "A modern decorative wall light featuring an elegant oval-shaped crystal frame with textured edges that diffuse light into a soft radiant glow. The fixture is mounted on a polished gold circular backplate, creating a luxurious accent piece ideal for bedrooms, living rooms, corridors, and contemporary interiors.",
+    "Color": "gold",
+    "Material": "Metal and Crystal",
+    "Finish": "Polished gold with textured crystal",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/165.jpg"
+  },
+  {
+    "Id": 166,
+    "Name": "Modern Diamond Crystal Wall Light",
+    "Category": "Wall Light",
+    "Sub": "Crystal",
+    "Dep": "A contemporary wall-mounted light featuring a diamond-shaped inner frame surrounded by textured crystal edges. The polished metallic structure reflects light beautifully, creating a soft radiant pattern on the wall. Ideal for accent lighting in living rooms, bedrooms, hallways, and luxury interiors.",
+    "Color": "chrome / silver",
+    "Material": "Metal and Crystal",
+    "Finish": "Polished chrome with textured crystal",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/166.jpg"
+  },
+  {
+    "Id": 167,
+    "Name": "Circular Crystal Ring Wall Light",
+    "Category": "Wall Light",
+    "Sub": "Crystal",
+    "Dep": "A sleek modern wall light featuring a circular ring design accented with textured clear crystal. The polished metallic base and inner ring create a soft ambient glow, casting elegant light patterns on the wall. Perfect for bedside areas, hallways, vanity walls, and contemporary interiors.",
+    "Color": "chrome / silver",
+    "Material": "Metal and Crystal",
+    "Finish": "Polished chrome with clear textured crystal",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/167.jpg"
+  },
+  {
+    "Id": 168,
+    "Name": "Modern Cylindrical Outdoor Wall Lantern",
+    "Category": "Outdoor Light",
+    "Sub": "Wall Lantern",
+    "Dep": "A modern outdoor wall lantern with a cylindrical clear glass body and a matte black metal frame. The fixture features a cone-shaped top and internal vertical light rods, giving it a clean architectural look. Ideal for exterior walls, entrances, balconies, and garden pathways.",
+    "Color": "black",
+    "Material": "Metal and Glass",
+    "Finish": "Matte black with clear glass",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/168.jpg"
+  },
+  {
+    "Id": 169,
+    "Name": "Modern Outdoor Box Wall Light",
+    "Category": "Outdoor Light",
+    "Sub": "Wall Lantern",
+    "Dep": "A modern outdoor wall light featuring a rectangular box design with layered horizontal metal slats and a frosted inner diffuser. The fixture has a rustic brushed gold finish with dark accents, giving it a stylish architectural look while softly diffusing light. Ideal for exterior walls, entrances, balconies, and garden areas.",
+    "Color": "antique gold",
+    "Material": "Metal and Glass",
+    "Finish": "Brushed antique gold with frosted diffuser",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/169.jpg"
+  },
+  {
+    "Id": 170,
+    "Name": "Modern Outdoor Layered Wall Light",
+    "Category": "Outdoor Light",
+    "Sub": "Wall Lantern",
+    "Dep": "A modern outdoor wall light with a rectangular layered design. The fixture features stacked horizontal metal slats around a frosted inner diffuser, providing soft glare-free illumination. Finished in matte black, it has a clean architectural look ideal for exterior walls, gates, balconies, and modern building facades.",
+    "Color": "black",
+    "Material": "Metal and Glass",
+    "Finish": "Matte black with frosted diffuser",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/170.jpg"
+  },
+  {
+    "Id": 171,
+    "Name": "Modern Geometric Outdoor Wall Light",
+    "Category": "Outdoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A modern outdoor wall light with a bold geometric design and angular side profile. The fixture is made from matte black metal and features a downward-facing light output, creating a clean and focused illumination. Ideal for exterior walls, entrances, balconies, and modern architectural spaces.",
+    "Color": "black",
+    "Material": "Metal",
+    "Finish": "Matte black",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/171.jpg"
+  },
+  {
+    "Id": 172,
+    "Name": "Modern Square Outdoor Step Wall Light",
+    "Category": "Outdoor Light",
+    "Sub": "Step Light",
+    "Dep": "A modern square outdoor step wall light with a recessed inner cavity designed to cast soft downward illumination. The fixture features a matte black metal frame and a warm diffused glow, making it ideal for staircases, pathways, boundary walls, and exterior corridors.",
+    "Color": "black",
+    "Material": "Metal",
+    "Finish": "Matte black",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/172.jpg"
+  },
+  {
+    "Id": 173,
+    "Name": "Modern Angular Outdoor Wall Light",
+    "Category": "Outdoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A modern outdoor wall light with a bold angular cube design and a slanted front face. The fixture features a downward-facing warm light output, creating subtle and focused illumination. Its clean matte black finish makes it ideal for exterior walls, entrances, balconies, and contemporary architectural spaces.",
+    "Color": "black",
+    "Material": "Metal",
+    "Finish": "Matte black",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/173.jpg"
+  },
+  {
+    "Id": 174,
+    "Name": "Decorative Pattern Glass Wall Light",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A decorative wall-mounted light featuring a cylindrical frosted glass shade with a stylish geometric star pattern band. The fixture includes a curved metal arm with a premium brass finish and a dark backplate, producing a warm ambient glow ideal for living rooms, hallways, bedrooms, and classic-modern interiors.",
+    "Color": "Brass & Black",
+    "Material": "Glass + Metal",
+    "Finish": "Brass finish with black base",
+    "Style": "Modern Classic",
+    "IMG": "assests/Pictures/174.jpg"
+  },
+  {
+    "Id": 175,
+    "Name": "Floral Pattern Cylinder Wall Lamp",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A warm and elegant wall-mounted lamp featuring a cylindrical fabric shade with floral motifs and vertical dotted patterns. The lamp is mounted on a compact wooden and metal base with a built-in switch and plug-in cord, making it ideal for bedrooms, bedside areas, corridors, and cozy living spaces.",
+    "Color": "Beige, Black & Natural Wood",
+    "Material": "Fabric + Wood + Metal",
+    "Finish": "Natural wood with matte black accents",
+    "Style": "Modern Decorative",
+    "IMG": "assests/Pictures/175.jpg"
+  },
+  {
+    "Id": 176,
+    "Name": "Vintage Glass Candle Wall Lamp",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A classic wall-mounted lamp featuring a clear tapered glass shade that reveals a warm filament-style LED inside. The fixture is supported by an antique brass-finish metal arm and backplate with subtle black accents, blending vintage charm with modern lighting. Ideal for hallways, living rooms, bedrooms, staircases, and accent walls.",
+    "Color": "Clear Glass, Antique Brass & Black",
+    "Material": "Glass + Metal",
+    "Finish": "Antique brass with matte black holder",
+    "Style": "Vintage / Classic Decorative",
+    "IMG": "assests/Pictures/176.jpg"
+  },
+  {
+    "Id": 177,
+    "Name": "Amber Glass Modern Wall Sconce",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A modern decorative wall sconce designed with an amber-tinted sculpted glass shade and a soft frosted inner diffuser for warm, glare-free lighting. The fixture is mounted on a sleek matte black round base, making it a perfect accent for bedrooms, hallways, living rooms, and hotel interiors.",
+    "Color": "Amber Glass & Matte Black",
+    "Material": "Glass + Metal",
+    "Finish": "Matte black base with amber glass shade",
+    "Style": "Modern / Decorative",
+    "IMG": "assests/Pictures/177.jpg"
+  },
+  {
+    "Id": 178,
+    "Name": "Clear Glass Cylinder Wall Sconce",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A modern wall-mounted sconce featuring a clear cylindrical glass shade with a frosted inner diffuser that produces soft ambient light. The fixture is supported by a clean angular metal arm and a rectangular backplate in matte black, ideal for bedrooms, hallways, bathrooms, and hotel interiors.",
+    "Color": "Clear Glass & Matte Black",
+    "Material": "Glass + Metal",
+    "Finish": "Matte black metal with clear glass shade",
+    "Style": "Modern / Minimal",
+    "IMG": "assests/Pictures/178.jpg"
+  },
+  {
+    "Id": 179,
+    "Name": "Decorative Pattern Glass Wall Sconce",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A stylish wall-mounted sconce with a cylindrical amber-tinted glass shade and a frosted inner diffuser for soft warm lighting. The outer glass features modern decorative starburst prints and a floral border band, paired with a compact metal wall mount in a bronze finish, perfect for bedrooms, hallways, and decorative interior spaces.",
+    "Color": "amber, white, bronze",
+    "Material": "Glass + Metal",
+    "Finish": "Bronze metal with printed glass shade",
+    "Style": "Modern / Decorative",
+    "IMG": "assests/Pictures/179.jpg"
+  },
+  {
+    "Id": 180,
+    "Name": "Modern Patterned Glass Wall Sconce",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A modern wall-mounted light featuring a cylindrical glass shade with a bold abstract pebble pattern in frosted white. The shade is paired with a glossy black metal wall base, creating a clean contemporary look while providing soft diffused ambient lighting for bedrooms, hallways, and living spaces.",
+    "Color": "black, white",
+    "Material": "Glass + Metal",
+    "Finish": "Glossy black metal with frosted patterned glass",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/180.jpg"
+  },
+  {
+    "Id": 181,
+    "Name": "Triple Drop Glass Pendant Light",
+    "Category": "Indoor Light",
+    "Sub": "Pendant Light",
+    "Dep": "A contemporary triple-drop pendant light featuring three clear sculpted glass shades with warm-toned illumination. Suspended from a round matte black ceiling canopy, each pendant hangs at a staggered height with black cords and gold-finished lamp holders, creating a striking modern statement ideal for dining areas, stairwells, and living spaces.",
+    "Color": "black, gold, clear",
+    "Material": "Glass + Metal",
+    "Finish": "Matte black canopy with gold-finished holders and clear glass",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/181.jpg"
+  },
+  {
+    "Id": 182,
+    "Name": "Geometric Shade Wall Lamp",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A modern wall-mounted lamp featuring a cylindrical black metal shade with a geometric checker cutout pattern. The shade allows warm light to glow through the square and dot perforations, creating decorative shadow effects. It is paired with a compact wood-and-metal wall base with a brass-finish backplate, ideal for bedrooms, hallways, and accent lighting.",
+    "Color": "black, gold, wood",
+    "Material": "Metal + Wood",
+    "Finish": "Matte black shade with brass-finish backplate",
+    "Style": "Modern / Decorative",
+    "IMG": "assests/Pictures/182.jpg"
+  },
+  {
+    "Id": 183,
+    "Name": "Clear Glass Cylinder Wall Lamp",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "An elegant wall-mounted lamp featuring a clear cylindrical glass shade that softly diffuses warm light. The fixture is supported by a curved black metal arm and a round brass-finish wall base, creating a refined contrast. The transparent glass highlights the bulb while casting subtle vertical light patterns on the wall, making it ideal for bedrooms, living areas, and corridors.",
+    "Color": "clear, black, gold",
+    "Material": "Glass and Metal",
+    "Finish": "Clear glass with matte black arm and brass-finish base",
+    "Style": "Modern / Contemporary",
+    "IMG": "assests/Pictures/183.jpg"
+  },
+  {
+    "Id": 184,
+    "Name": "Triple Cage Pendant Light",
+    "Category": "Indoor Light",
+    "Sub": "Pendant Light",
+    "Dep": "A stylish three-light pendant fixture featuring individual cylindrical metal cage shades with geometric wire detailing. Each pendant houses a warm glowing bulb and hangs at staggered heights from a round matte black ceiling canopy. The combination of black metal cages and brass-finish lamp holders gives it a modern industrial charm, perfect for dining areas, stairwells, and living spaces.",
+    "Color": "black, gold",
+    "Material": "Metal",
+    "Finish": "Matte black cage with brass-finish holders",
+    "Style": "Industrial / Modern",
+    "IMG": "assests/Pictures/184.jpg"
+  },
+  {
+    "Id": 185,
+    "Name": "Adjustable Clear Glass Wall Lamp",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A contemporary wall-mounted lamp featuring a clear rectangular glass shade that showcases the bulb for a warm ambient glow. The fixture includes an adjustable black metal arm paired with a round brass-finish wall base, allowing directional lighting. Its clean lines and exposed-bulb aesthetic make it suitable for bedrooms, reading corners, and modern living spaces.",
+    "Color": "clear, black, gold",
+    "Material": "Glass and Metal",
+    "Finish": "Clear glass with matte black arm and brass-finish base",
+    "Style": "Modern / Industrial",
+    "IMG": "assests/Pictures/185.jpg"
+  },
+  {
+    "Id": 186,
+    "Name": "Classic Double Glass Wall Lamp",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A refined wall-mounted lamp featuring a double-layer glass design with an inner frosted diffuser and an outer clear glass shade. The fixture emits a warm, soft glow and is supported by a compact dark metal wall base with a traditional silhouette, making it ideal for bedrooms, corridors, and ambient accent lighting.",
+    "Color": "clear, frosted white, black",
+    "Material": "Glass and Metal",
+    "Finish": "Clear outer glass with frosted inner glass and matte dark metal base",
+    "Style": "Classic / Contemporary",
+    "IMG": "assests/Pictures/186.jpg"
+  },
+  {
+    "Id": 187,
+    "Name": "Amber Glass Modern Wall Sconce",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A modern wall-mounted sconce featuring a tall geometric amber-tinted glass shade with a visible bulb for a warm decorative glow. The fixture is supported by a compact metal base, making it ideal for hallways, bedrooms, living spaces, and ambient accent lighting.",
+    "Color": "amber, gold, black",
+    "Material": "Glass and Metal",
+    "Finish": "Amber tinted glass with metallic base",
+    "Style": "Modern / Contemporary",
+    "IMG": "assests/Pictures/187.jpg"
+  },
+  {
+    "Id": 188,
+    "Name": "Hexa Amber Glass Wall Light",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A sleek wall-mounted light featuring a tall hexagonal amber-tinted glass shade that softly diffuses light while showcasing the bulb inside. The warm glow and geometric profile make it a stylish choice for modern interiors, hallways, bedrooms, and accent walls.",
+    "Color": "amber, gold",
+    "Material": "Glass and Metal",
+    "Finish": "Amber glass with brushed gold metal base",
+    "Style": "Modern / Contemporary",
+    "IMG": "assests/Pictures/188.jpg"
+  },
+  {
+    "Id": 189,
+    "Name": "Dual Frosted Glass Pendant Light",
+    "Category": "Indoor Light",
+    "Sub": "Pendant Light",
+    "Dep": "A contemporary dual pendant light featuring two softly glowing frosted glass shades suspended at staggered heights. The minimalist black metal frame and curved top mount create a balanced, elegant look, ideal for dining areas, kitchen islands, and modern living spaces.",
+    "Color": "frosted white, black",
+    "Material": "Glass and Metal",
+    "Finish": "Frosted glass shades with matte black metal frame",
+    "Style": "Modern / Minimalist",
+    "IMG": "assests/Pictures/189.jpg"
+  },
+  {
+    "Id": 190,
+    "Name": "4-Light Gold Cluster Pendant",
+    "Category": "Indoor Light",
+    "Sub": "Pendant Light",
+    "Dep": "A modern 4-light cluster pendant featuring four textured clear glass shades arranged in a compact hanging formation. The fixture is suspended from a round matte black ceiling canopy, with elegant gold-finished holders that add a warm, luxurious contrast. Ideal for living rooms, dining spaces, and contemporary interiors.",
+    "Color": "gold, clear, black",
+    "Material": "Metal and Glass",
+    "Finish": "Gold metal with textured clear glass and matte black canopy",
+    "Style": "Modern & Contemporary",
+    "IMG": "assests/Pictures/190.jpg"
+  },
+  {
+    "Id": 191,
+    "Name": "3-Light Textured Glass Drop Pendant",
+    "Category": "Indoor Light",
+    "Sub": "Pendant Light",
+    "Dep": "An elegant 3-light drop pendant featuring individually suspended textured glass shades with a soft cube-inspired form. Each light is finished with refined gold-toned metal holders and hangs from a round matte black ceiling canopy at staggered heights, creating a balanced and luxurious visual flow. Ideal for stairwells, dining areas, and double-height spaces.",
+    "Color": "gold, clear, black",
+    "Material": "Metal and Glass",
+    "Finish": "Gold metal with textured clear glass and matte black canopy",
+    "Style": "Modern Luxury",
+    "IMG": "assests/Pictures/191.jpg"
+  },
+  {
+    "Id": 192,
+    "Name": "3-Light Twisted Glass Drop Pendant",
+    "Category": "Indoor Light",
+    "Sub": "Pendant Light",
+    "Dep": "A refined 3-light drop pendant featuring elegant twisted clear glass shades that create a graceful teardrop silhouette. Each pendant is accented with warm gold-toned metal holders and suspended at staggered heights from a round matte black ceiling canopy, offering a sophisticated and airy visual appeal. Perfect for staircases, dining spaces, and contemporary living areas.",
+    "Color": "gold, clear, black",
+    "Material": "Metal and Glass",
+    "Finish": "Gold metal with twisted clear glass and matte black canopy",
+    "Style": "Modern Elegant",
+    "IMG": "assests/Pictures/192.jpg"
+  },
+  {
+    "Id": 193,
+    "Name": "6-Light Textured Glass Ring Chandelier",
+    "Category": "Indoor Light",
+    "Sub": "Pendant / Chandelier",
+    "Dep": "A contemporary ring-style chandelier featuring six spherical textured glass shades that emit a warm, ambient glow. The lights are evenly arranged around a sleek matte black circular frame and suspended by slim black cables from a compact ceiling canopy. This design creates a balanced, modern statement ideal for dining areas, living rooms, and stylish commercial interiors.",
+    "Color": "clear, warm white, black",
+    "Material": "Metal and Glass",
+    "Finish": "Matte black frame with textured clear glass",
+    "Style": "Modern Contemporary",
+    "IMG": "assests/Pictures/193.jpg"
+  },
+  {
+    "Id": 194,
+    "Name": "Multi-Light Cascade Pendant Chandelier",
+    "Category": "Indoor Light",
+    "Sub": "Pendant / Chandelier",
+    "Dep": "A luxurious cascade-style pendant chandelier featuring multiple bell-shaped textured glass shades suspended at varying heights. The warm glowing bulbs create a dramatic vertical lighting effect, making it ideal for double-height ceilings, staircases, hotel lobbies, and modern living spaces. Its elegant hanging arrangement adds depth, sophistication, and ambient warmth to the interior.",
+    "Color": "warm white, amber, black",
+    "Material": "Metal and Glass",
+    "Finish": "Black suspension with amber textured glass",
+    "Style": "Modern Luxury",
+    "IMG": "assests/Pictures/194.jpg"
+  },
+  {
+    "Id": 195,
+    "Name": "Modern Glass Globe Ring Chandelier",
+    "Category": "Indoor Light",
+    "Sub": "Chandelier / Pendant",
+    "Dep": "A modern ring-style chandelier featuring multiple textured glass globe shades arranged in a circular layout. Suspended with sleek black cables, it produces a warm ambient glow that enhances dining rooms, living spaces, and contemporary interiors. The balanced symmetry and luxury finish make it a perfect centerpiece for modern homes and hospitality spaces.",
+    "Color": "warm white, amber, black",
+    "Material": "Metal and Textured Glass",
+    "Finish": "Matte black frame with amber crackle glass",
+    "Style": "Modern Luxury",
+    "IMG": "assests/Pictures/195.jpg"
+  },
+  {
+    "Id": 196,
+    "Name": "Cascade Mini Glass Pendant Chandelier",
+    "Category": "Indoor Light",
+    "Sub": "Chandelier / Pendant",
+    "Dep": "A cascading multi-light pendant chandelier featuring a series of small, cone-shaped textured glass shades suspended at varying heights. The staggered arrangement creates a flowing vertical design, ideal for staircases, double-height spaces, and modern interiors. Emits a warm, elegant glow that adds depth and visual movement to the space.",
+    "Color": "warm white, clear, black",
+    "Material": "Metal and Textured Glass",
+    "Finish": "Matte black canopy with clear textured glass",
+    "Style": "Modern Contemporary",
+    "IMG": "assests/Pictures/196.jpg"
+  },
+  {
+    "Id": 197,
+    "Name": "Textured Glass Globe Wall Sconce",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A modern wall-mounted sconce featuring a rounded globe-style textured glass shade with an elegant diamond-cut pattern. The fixture is supported by a curved metal arm and a circular backplate in a warm metallic finish, creating a stylish blend of contemporary and luxury design. Produces a soft, ambient glow ideal for bedrooms, hallways, and living spaces.",
+    "Color": "clear, gold",
+    "Material": "Metal and Textured Glass",
+    "Finish": "Polished gold with clear patterned glass",
+    "Style": "Modern Contemporary",
+    "IMG": "assests/Pictures/197.jpg"
+  },
+  {
+    "Id": 198,
+    "Name": "Brick Pattern Cylindrical Wall Sconce",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A contemporary wall-mounted sconce featuring a cylindrical shade with a distinctive brick-pattern metal lattice surrounding a soft diffused inner light. The fixture is mounted on a square backplate with a short horizontal arm in a warm metallic tone, blending modern geometry with subtle industrial elegance. Ideal for hallways, bedrooms, living areas, and accent walls.",
+    "Color": "black, warm white, brass",
+    "Material": "Metal and Diffused Glass",
+    "Finish": "Matte black with brushed brass accents",
+    "Style": "Modern Industrial",
+    "IMG": "assests/Pictures/198.jpg"
+  },
+  {
+    "Id": 199,
+    "Name": "Crystal Globe Wall Sconce",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A stylish wall-mounted sconce featuring a textured crystal-style glass globe that creates a warm sparkling glow. The fixture includes a curved matte-black arm and a round backplate, giving it a clean modern look with a touch of luxury. Perfect for bedrooms, hallways, living rooms, and decorative accent lighting.",
+    "Color": "black, warm white, clear",
+    "Material": "Metal and Textured Glass",
+    "Finish": "Matte black",
+    "Style": "Modern Luxury",
+    "IMG": "assests/Pictures/199.jpg"
+  },
+  {
+    "Id": 200,
+    "Name": "Rippled Glass Wall Sconce",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "An elegant wall-mounted sconce featuring a uniquely rippled amber-tinted glass shade that diffuses light into a warm, ambient glow. The fixture is supported by a curved matte-black metal arm and a round backplate, blending modern form with artistic glass detailing. Ideal for bedrooms, living spaces, hallways, and decorative accent walls.",
+    "Color": "black, warm white, amber",
+    "Material": "Metal and Glass",
+    "Finish": "Matte black",
+    "Style": "Modern Contemporary",
+    "IMG": "assests/Pictures/200.jpg"
+  },
+  {
+    "Id": 201,
+    "Name": "Frosted Cylinder Glass Wall Sconce",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A sleek modern wall sconce designed with a frosted cylindrical glass diffuser enclosed in a clear outer glass shell. The fixture is supported by a solid rectangular wall mount in a dark bronze finish, creating a warm and premium look. It provides soft ambient lighting, making it ideal for hallways, bedrooms, living areas, and upscale interior spaces.",
+    "Color": "dark bronze, warm white, frosted white",
+    "Material": "Metal and Glass",
+    "Finish": "Dark bronze",
+    "Style": "Modern Luxury",
+    "IMG": "assests/Pictures/201.jpg"
+  },
+  {
+    "Id": 202,
+    "Name": "Textured Globe Glass Wall Sconce",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "An elegant wall-mounted sconce featuring a spherical clear glass shade with intricate cross-hatched texture. The curved arm and circular backplate are finished in a warm antique brass tone, giving the fixture a refined modern–classic appeal. It emits a soft, warm glow suitable for bedrooms, corridors, living rooms, and accent walls.",
+    "Color": "antique brass, clear glass, warm white",
+    "Material": "Metal and Glass",
+    "Finish": "Antique brass",
+    "Style": "Modern Classic",
+    "IMG": "assests/Pictures/202.jpg"
+  },
+  {
+    "Id": 203,
+    "Name": "Luxury Crystal Wall Light (Antique Gold Finish)",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A premium decorative wall-mounted crystal light featuring a bold antique-gold metal frame with oval crystal accents. The center body is built with layered cut-crystal elements, creating a rich reflective effect and a warm luxury glow. Ideal for living rooms, hallways, hotel interiors, and classic luxury wall décor.",
+    "Color": "antique gold, clear crystal, warm white",
+    "Material": "Metal and Crystal Glass",
+    "Finish": "Antique gold",
+    "Style": "Luxury / Classic",
+    "IMG": "assests/Pictures/203.jpg"
+  },
+  {
+    "Id": 204,
+    "Name": "Luxury Crystal Wall Light (Royal Gold Finish)",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "An opulent wall-mounted crystal light featuring a royal gold-finished metal base with floral-inspired crystal accents. The centerpiece consists of a vertical clear crystal column embedded with circular crystal elements, producing a radiant, jewel-like illumination. Perfect for premium living spaces, hotels, corridors, and classic luxury interiors.",
+    "Color": "gold, clear crystal, warm white",
+    "Material": "Metal and Crystal Glass",
+    "Finish": "Royal gold",
+    "Style": "Luxury / Classic",
+    "IMG": "assests/Pictures/204.jpg"
+  },
+  {
+    "Id": 205,
+    "Name": "Luxury Crystal Wall Light (Imperial Gold Finish)",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A lavish wall-mounted crystal light featuring an imperial gold-finished metal base with layered floral crystal accents. The vertical centerpiece is crafted from a geometric cut crystal column, delivering brilliant light refraction and a regal glow. Designed to elevate luxury interiors such as living rooms, hallways, hotels, and grand foyers.",
+    "Color": "gold, clear crystal, warm white",
+    "Material": "Metal and Crystal Glass",
+    "Finish": "Imperial gold",
+    "Style": "Luxury / Classic",
+    "IMG": "assests/Pictures/205.jpg"
+  },
+  {
+    "Id": 206,
+    "Name": "Modern Crystal Ring Wall Light (Gold Finish)",
+    "Category": "Indoor Light",
+    "Sub": "Wall Light",
+    "Dep": "A premium modern wall light featuring a central polished gold metal body with two curved crystal-ring side panels and vertical crystal columns on the top and bottom. The faceted crystal design creates a sparkling glow and elegant reflections, making it ideal for luxury living rooms, hallways, and hotel interiors.",
+    "Color": "gold, clear crystal, warm white",
+    "Material": "Metal and Crystal Glass",
+    "Finish": "Polished gold",
+    "Style": "Modern Luxury",
+    "IMG": "assests/Pictures/206.jpg"
+  },
+  {
+    "Id": 207,
+    "Name": "Modern Nordic Black Pendant Light (Wood Accent)",
+    "Category": "Indoor Light",
+    "Sub": "Pendant Light",
+    "Dep": "A sleek Nordic-style pendant light featuring a wide matte-black metal shade with a natural wood top accent and a long hanging cord. The minimal silhouette makes it perfect for dining areas, kitchen islands, cafés, and modern interiors.",
+    "Color": "matte black, natural wood",
+    "Material": "Metal and Wood",
+    "Finish": "Matte black",
+    "Style": "Nordic / Minimalist",
+    "IMG": "assests/Pictures/207.jpg"
+  },
+  {
+    "Id": 208,
+    "Name": "Nordic White Pendant Light (Wood Accent)",
+    "Category": "Indoor Light",
+    "Sub": "Pendant Light",
+    "Dep": "A clean and elegant Nordic-style pendant light featuring a conical matte-white metal shade paired with a natural wood top accent and white suspension cord. Ideal for dining areas, kitchen counters, cafés, and minimalist interiors.",
+    "Color": "matte white, natural wood",
+    "Material": "Metal and Wood",
+    "Finish": "Matte white",
+    "Style": "Nordic / Minimalist",
+    "IMG": "assests/Pictures/208.jpg"
+  },
+  {
+    "Id": 209,
+    "Name": "Nordic Black Pendant Light (Wood Neck)",
+    "Category": "Indoor Light",
+    "Sub": "Pendant Light",
+    "Dep": "A modern Nordic-inspired pendant light featuring a matte black metal dome shade combined with a natural wooden neck detail. The clean silhouette and warm wood accent make it ideal for kitchens, dining spaces, cafés, and contemporary interiors.",
+    "Color": "matte black, natural wood",
+    "Material": "Metal and Wood",
+    "Finish": "Matte black",
+    "Style": "Nordic / Modern / Minimalist",
+    "IMG": "assests/Pictures/209.jpg"
+  },
+  {
+    "Id": 210,
+    "Name": "Luxury Multi-Drop Crystal Cylinder Chandelier",
+    "Category": "Indoor Lighting",
+    "Sub": "Chandelier / Multi-Pendant",
+    "Dep": "An elegant multi-drop chandelier featuring multiple cylindrical crystal pendants suspended at varying heights from a circular ceiling canopy. The sparkling crystal cylinders diffuse warm light beautifully, creating a dramatic cascading effect ideal for double-height spaces, staircases, lobbies, and luxury living or dining areas.",
+    "Color": "Gold, Clear",
+    "Material": "Crystal, Metal",
+    "Finish": "Polished gold metal with clear crystal glass",
+    "Style": "Luxury / Contemporary / Modern",
+    "IMG": "assests/Pictures/210.jpg"
+  },
+  {
+    "Id": 211,
+    "Name": "Luxury Raindrop Multi-Pendant Chandelier",
+    "Category": "Indoor Lighting",
+    "Sub": "Chandelier / Multi-Pendant",
+    "Dep": "A stunning cascading chandelier featuring multiple raindrop-shaped crystal pendants suspended at different heights from a large circular ceiling canopy. The textured crystal diffuses light beautifully, creating a sparkling waterfall effect ideal for double-height areas, staircases, hotel lobbies, and luxury interiors.",
+    "Color": "Gold, Clear",
+    "Material": "Crystal, Metal",
+    "Finish": "Gold metal frame with clear textured crystal",
+    "Style": "Luxury / Modern / Contemporary",
+    "IMG": "assests/Pictures/211.jpg"
+  },
+  {
+    "Id": 212,
+    "Name": "Square Recessed LED Step Light",
+    "Category": "Outdoor Lighting",
+    "Sub": "Step Light / Wall Recessed Light",
+    "Dep": "A compact square recessed LED step light designed for staircases, pathways, and wall installations. The front louvered diffuser provides glare-free illumination, while the concealed housing allows for a clean and modern architectural finish.",
+    "Color": "Black",
+    "Material": "Aluminium, Plastic",
+    "Finish": "Matte Black",
+    "Style": "Modern / Architectural",
+    "IMG": "assests/Pictures/212.jpg"
+  },
+  {
+    "Id": 213,
+    "Name": "Round Recessed LED Step Light",
+    "Category": "Outdoor Lighting",
+    "Sub": "Step Light / Wall Recessed Light",
+    "Dep": "A round recessed LED step light ideal for stairs, pathways, and wall installations. The half-shield louver design provides soft, glare-free illumination while keeping the light source hidden for a clean architectural look.",
+    "Color": "Black",
+    "Material": "Aluminium, Plastic",
+    "Finish": "Matte Black",
+    "Style": "Modern / Architectural",
+    "IMG": "assests/Pictures/213.jpg"
+  },
+  {
+    "Id": 214,
+    "Name": "Round Recessed LED Step Light (Oval Beam)",
+    "Category": "Outdoor Lighting",
+    "Sub": "Step Light / Wall Recessed Light",
+    "Dep": "A round recessed LED step light designed for stairs, pathways, and wall installations. The oval cut-out front creates a focused, glare-free downward beam while keeping the fixture clean and minimal.",
+    "Color": "Black",
+    "Material": "Aluminium, Plastic",
+    "Finish": "Matte Black",
+    "Style": "Modern / Architectural",
+    "IMG": "assests/Pictures/214.jpg"
+  },
+  {
+    "Id": 215,
+    "Name": "Rectangular Recessed LED Step Light",
+    "Category": "Outdoor Lighting",
+    "Sub": "Step Light / Wall Recessed Light",
+    "Dep": "A rectangular recessed LED step light suitable for stairs, corridors, and exterior walls. Designed to provide soft, directional illumination with reduced glare for safe navigation.",
+    "Color": "Black",
+    "Material": "Aluminium, Plastic",
+    "Finish": "Matte Black",
+    "Style": "Modern / Architectural",
+    "IMG": "assests/Pictures/215.jpg"
+  },
+  {
+    "Id": 216,
+    "Name": "Square Recessed LED Step Light",
+    "Category": "Outdoor Lighting",
+    "Sub": "Step Light / Wall Recessed Light",
+    "Dep": "A square recessed LED step light designed for staircases, pathways, and wall installations. Provides downward, glare-free illumination for safety and modern architectural appeal.",
+    "Color": "Black",
+    "Material": "Aluminium, Plastic",
+    "Finish": "Matte Black",
+    "Style": "Modern / Minimal",
+    "IMG": "assests/Pictures/216.jpg"
+  },
+  {
+    "Id": 217,
+    "Name": "Square Recessed LED Step Light (Semi-Circle Face)",
+    "Category": "Outdoor Lighting",
+    "Sub": "Step Light / Wall Recessed Light",
+    "Dep": "A square recessed LED step light with a semi-circle face design, ideal for staircases, corridors, and outdoor pathways. Provides soft downward lighting for safety and modern aesthetics.",
+    "Color": "Black",
+    "Material": "Aluminium, Plastic",
+    "Finish": "Matte Black",
+    "Style": "Modern / Minimal",
+    "IMG": "assests/Pictures/217.jpg"
+  },
+  {
+    "Id": 218,
+    "Name": "Square Recessed LED Step Light (Semi-Circle Face)",
+    "Category": "Outdoor Lighting",
+    "Sub": "Step Light / Wall Recessed Light",
+    "Dep": "A square recessed LED step light with a semi-circle face design in white finish, suitable for staircases, corridors, and wall installations. Provides soft, glare-free downward illumination for safety and elegance.",
+    "Color": "White",
+    "Material": "Aluminium, Plastic",
+    "Finish": "Matte White",
+    "Style": "Modern / Minimal",
+    "IMG": "assests/Pictures/218.jpg"
+  },
+  {
+    "Id": 219,
+    "Name": "Square Recessed LED Step Light (Deep Recess Face)",
+    "Category": "Outdoor Lighting",
+    "Sub": "Step Light / Wall Recessed Light",
+    "Dep": "A square recessed LED step light with a deep recessed face design in white finish, ideal for staircases, pathways, and wall installations. Designed to provide soft, glare-free downward lighting for safety and modern aesthetics.",
+    "Color": "White",
+    "Material": "Aluminium, Plastic",
+    "Finish": "Matte White",
+    "Style": "Modern / Minimal",
+    "IMG": "assests/Pictures/219.jpg"
+  },
+  {
+    "Id": 220,
+    "Name": "Modern LED Ring Chandelier (Triple Loop Design)",
+    "Category": "Indoor Lighting",
+    "Sub": "LED Chandelier / Pendant Light",
+    "Dep": "A modern LED ring chandelier featuring a triple loop suspended design, ideal for living rooms, dining areas, and luxury interiors. Provides bright ambient lighting with a stylish floating ring effect for a premium contemporary look.",
+    "Color": "Black & Gold",
+    "Material": "Aluminium, Acrylic",
+    "Finish": "Matte Black + Gold",
+    "Style": "Modern / Luxury",
+    "IMG": "assests/Pictures/220.jpg"
+  },
+  {
+    "Id": 221,
+    "Name": "Modern LED Ring Chandelier with Crystal Globe Lights",
+    "Category": "Indoor Lighting",
+    "Sub": "LED Chandelier / Pendant Light",
+    "Dep": "A stylish modern chandelier featuring a glowing LED ring with an infinity-loop design and multiple crystal globe pendant lights. Perfect for living rooms, dining spaces, hotels, and luxury interiors, providing both decorative beauty and bright ambient lighting.",
+    "Color": "Black & Warm White",
+    "Material": "Aluminium, Acrylic, Crystal Glass",
+    "Finish": "Matte Black",
+    "Style": "Modern / Luxury",
+    "IMG": "assests/Pictures/221.jpg"
+  },
+  {
+    "Id": 222,
+    "Name": "Luxury LED Infinity Ring Chandelier with Starry Projection",
+    "Category": "Indoor Lighting",
+    "Sub": "LED Chandelier / Decorative Pendant Light",
+    "Dep": "A premium luxury LED chandelier featuring elegant gold infinity rings with warm LED illumination and reflective globe lights. The ceiling projection creates a magical star-and-moon effect, making it ideal for bedrooms, living rooms, and high-end interior spaces.",
+    "Color": "Gold & Warm White",
+    "Material": "Aluminium, Acrylic, Glass",
+    "Finish": "Brushed Gold",
+    "Style": "Modern / Luxury / Artistic",
+    "IMG": "assests/Pictures/222.jpg"
+  },
+  {
+    "Id": 223,
+    "Name": "Round Surface Mounted LED Spot Light (Black / White / Gold)",
+    "Category": "Indoor Lighting",
+    "Sub": "Surface Mounted Spot Light",
+    "Dep": "A modern round surface-mounted LED spotlight available in multiple finishes. Designed for focused illumination in homes, showrooms, offices, and commercial interiors, providing a clean and minimal ceiling look with strong light output.",
+    "Color": "Black / White / Gold",
+    "Material": "Aluminium",
+    "Finish": "Matte Black / Matte White / Gold",
+    "Style": "Modern / Minimal",
+    "IMG": "assests/Pictures/223.jpg"
+  },
+  {
+    "Id": 224,
+    "Name": "Round Recessed LED Downlight",
+    "Category": "Indoor Lighting",
+    "Sub": "Recessed Downlight",
+    "Dep": "A compact round recessed LED downlight with spring clips for easy ceiling installation. Designed for efficient, focused illumination in residential and commercial interiors such as corridors, bedrooms, offices, and retail spaces.",
+    "Color": "White",
+    "Material": "Aluminium + Plastic",
+    "Finish": "Matte White",
+    "Style": "Modern / Minimal",
+    "IMG": "assests/Pictures/224.jpg"
+  },
+  {
+    "Id": 225,
+    "Name": "Recessed LED Downlight (Round & Square)",
+    "Category": "Indoor Lighting",
+    "Sub": "Recessed Downlight",
+    "Dep": "A compact recessed LED downlight available in both round and square designs. Ideal for modern ceilings, providing focused and efficient lighting for homes, offices, corridors, and retail interiors.",
+    "Color": "White",
+    "Material": "Aluminium + Plastic",
+    "Finish": "Matte White",
+    "Style": "Modern / Minimal",
+    "IMG": "assests/Pictures/225.jpg"
+  },
+  {
+    "Id": 226,
+    "Name": "Recessed COB LED Downlight",
+    "Category": "Indoor Lighting",
+    "Sub": "COB Downlight",
+    "Dep": "High-efficiency recessed COB LED downlight available in black and white finishes. Designed for strong focused illumination, ideal for homes, offices, showrooms, hotels, and retail spaces.",
+    "Color": "Black / White",
+    "Material": "Aluminium + Plastic",
+    "Finish": "Matte",
+    "Style": "Modern",
+    "IMG": "assests/Pictures/226.jpg"
+  },
+  {
+    "Id": 227,
+    "Name": "LED Wall Light (Up & Down)",
+    "Category": "Indoor Lighting",
+    "Sub": "Wall Light",
+    "Dep": "Modern decorative LED wall light with up and down beam effect. Perfect for living rooms, bedrooms, corridors, stairways, hotels, and indoor feature walls.",
+    "Color": "Gold / Black",
+    "Material": "Metal + Acrylic",
+    "Finish": "Glossy",
+    "Style": "Modern",
+    "IMG": "assests/Pictures/227.jpg"
+  },
+  {
+    "Id": 228,
+    "Name": "LED Wall Light (Up & Down)",
+    "Category": "Indoor Lighting",
+    "Sub": "Wall Light",
+    "Dep": "Modern LED wall light with crystal bubble acrylic center and up & down beam effect. Ideal for living rooms, bedrooms, corridors, stairways, hotels, and feature walls.",
+    "Color": "Black",
+    "Material": "Metal + Acrylic",
+    "Finish": "Matte",
+    "Style": "Modern",
+    "IMG": "assests/Pictures/228.jpg"
+  },
+  {
+    "Id": 229,
+    "Name": "Outdoor Wall Lantern Light",
+    "Category": "Outdoor Lighting",
+    "Sub": "Wall Light",
+    "Dep": "Classic outdoor wall lantern with decorative metal body and clear panels. Suitable for gates, gardens, balconies, verandas, and exterior walls.",
+    "Color": "Black",
+    "Material": "Metal + Glass",
+    "Finish": "Matte",
+    "Style": "Classic",
+    "IMG": "assests/Pictures/229.jpg"
+  },
+  {
+    "Id": 230,
+    "Name": "Outdoor Cube Wall Light",
+    "Category": "Outdoor Lighting",
+    "Sub": "Wall Light",
+    "Dep": "Modern cube-style outdoor wall light with frosted diffuser panels. Ideal for exterior walls, entrances, balconies, and garden areas.",
+    "Color": "Black",
+    "Material": "Metal + Acrylic",
+    "Finish": "Matte",
+    "Style": "Modern",
+    "IMG": "assests/Pictures/230.jpg"
+  },
+  {
+    "Id": 231,
+    "Name": "Crystal Bubble Up-Down Wall Light",
+    "Category": "Indoor Lighting",
+    "Sub": "Wall Light",
+    "Dep": "Modern up-down wall light with crystal bubble glass diffuser, creating a sparkling effect. Perfect for bedrooms, hallways, living rooms, and feature walls.",
+    "Color": "Black",
+    "Material": "Metal + Crystal Glass",
+    "Finish": "Matte",
+    "Style": "Modern",
+    "IMG": "assests/Pictures/231.jpg"
+  },
+  {
+    "Id": 232,
+    "Name": "Dual Lens Crystal Up-Down Wall Light",
+    "Category": "Indoor Lighting",
+    "Sub": "Wall Light",
+    "Dep": "Compact modern wall light featuring crystal glass with dual lens LEDs, producing a sharp up and down light spread. Ideal for accent walls, corridors, stairways, and contemporary interiors.",
+    "Color": "Black",
+    "Material": "Metal + Crystal Glass",
+    "Finish": "Matte",
+    "Style": "Modern",
+    "IMG": "assests/Pictures/232.jpg"
+  },
+  {
+    "Id": 233,
+    "Name": "Geometric Crystal Up-Down Wall Light",
+    "Category": "Indoor Lighting",
+    "Sub": "Wall Light",
+    "Dep": "Stylish geometric wall light with crystal-clear body, designed to cast a sharp up and down beam pattern. Perfect for modern living rooms, hallways, staircases, and feature walls.",
+    "Color": "Warm White",
+    "Material": "Metal + Crystal Glass",
+    "Finish": "Gloss",
+    "Style": "Modern",
+    "IMG": "assests/Pictures/233.jpg"
+  },
+  {
+    "Id": 234,
+    "Name": "Outdoor Up-Down Wall Light with Motion Sensor",
+    "Category": "Outdoor Lighting",
+    "Sub": "Wall Light",
+    "Dep": "Modern outdoor wall light with a bright front panel and up-down beam effect. Includes a built-in motion sensor, making it ideal for gates, gardens, boundary walls, and entrances.",
+    "Color": "Cool White",
+    "Material": "Metal + Acrylic",
+    "Finish": "Matte",
+    "Style": "Modern",
+    "IMG": "assests/Pictures/234.jpg"
+  },
+  {
+    "Id": 235,
+    "Name": "Crystal Bubble LED Wall Light",
+    "Category": "Indoor Lighting",
+    "Sub": "Wall Light",
+    "Dep": "Modern decorative LED wall light featuring a vertical light bar with two sparkling crystal bubble glass discs. Creates a soft ambient glow, perfect for bedrooms, living rooms, hotels, and luxury interiors.",
+    "Color": "Warm White",
+    "Material": "Metal + Crystal Glass",
+    "Finish": "Gold",
+    "Style": "Luxury Modern",
+    "IMG": "assests/Pictures/235.jpg"
+  },
+  {
+    "Id": 236,
+    "Name": "Bubble Crystal Dual Beam LED Wall Light",
+    "Category": "Indoor Lighting",
+    "Sub": "Wall Light",
+    "Dep": "Modern decorative LED wall light with a central bubble crystal glass column and dual up-down light beams. Produces elegant light patterns on walls, ideal for living rooms, corridors, hotels, and feature walls.",
+    "Color": "Warm White",
+    "Material": "Aluminium + Crystal Glass",
+    "Finish": "Matte Black",
+    "Style": "Modern Luxury",
+    "IMG": "assests/Pictures/236.jpg"
+  },
+  {
+    "Id": 237,
+    "Name": "Bubble Crystal Dual Beam LED Wall Light (Horizontal)",
+    "Category": "Indoor Lighting",
+    "Sub": "Wall Light",
+    "Dep": "Modern decorative LED wall light in a horizontal design with bubble crystal glass center and dual up-down beam effect. Creates stylish wall patterns, perfect for bedrooms, hallways, living rooms, and hotel interiors.",
+    "Color": "Warm White",
+    "Material": "Aluminium + Crystal Glass",
+    "Finish": "Matte Black",
+    "Style": "Modern Luxury",
+    "IMG": "assests/Pictures/237.jpg"
+  },
+  {
+    "Id": 238,
+    "Name": "Diamond Pattern Crystal Dual Beam LED Wall Light",
+    "Category": "Indoor Lighting",
+    "Sub": "Wall Light",
+    "Dep": "Elegant dual up-down LED wall light featuring diamond-pattern crystal diffusers on both ends with a central matte black body. Produces a warm ambient glow with decorative light textures, ideal for living rooms, bedrooms, corridors, hotels, and modern interiors.",
+    "Color": "Warm White",
+    "Material": "Aluminium + Crystal Glass",
+    "Finish": "Matte Black",
+    "Style": "Modern Decorative",
+    "IMG": "assests/Pictures/238.jpg"
+  },
+  {
+    "Id": 239,
+    "Name": "Spiral Crystal Dual Up-Down LED Wall Light",
+    "Category": "Indoor Lighting",
+    "Sub": "Wall Light",
+    "Dep": "Modern decorative wall light featuring a matte black cylindrical body with spiral-pattern crystal glass diffusers on top and bottom. Emits warm up and down lighting, ideal for bedrooms, corridors, living rooms, and premium interior spaces.",
+    "Color": "Warm White",
+    "Material": "Aluminium + Crystal Glass",
+    "Finish": "Matte Black",
+    "Style": "Modern Decorative",
+    "IMG": "assests/Pictures/239.jpg"
+  },
+  {
+    "Id": 240,
+    "Name": "Ripple Crystal Dual Up-Down LED Wall Light",
+    "Category": "Indoor Lighting",
+    "Sub": "Wall Light",
+    "Dep": "Modern decorative wall light with a matte black cylindrical body and ripple-textured crystal glass diffusers on top and bottom. Creates elegant radial light patterns with warm up and down illumination, ideal for living rooms, bedrooms, corridors, and premium interiors.",
+    "Color": "Warm White",
+    "Material": "Aluminium + Crystal Glass",
+    "Finish": "Matte Black",
+    "Style": "Modern Luxury",
+    "IMG": "assests/Pictures/240.jpg"
+  },
+  {
+    "Id": 241,
+    "Name": "Modern Round Halo LED Wall Light",
+    "Category": "Indoor Lighting",
+    "Sub": "Wall Light",
+    "Dep": "Modern circular LED wall light with a matte black half-cover frame and a soft glowing round diffuser. Provides warm ambient lighting with a clean halo effect, ideal for bedrooms, living rooms, hallways, and modern interior spaces.",
+    "Color": "Warm White",
+    "Material": "Aluminium + Acrylic Diffuser",
+    "Finish": "Matte Black",
+    "Style": "Modern Minimal",
+    "IMG": "assests/Pictures/241.jpg"
+  },
+  {
+    "Id": 242,
+    "Name": "Crystal Bubble Beam Wall Light",
+    "Category": "Indoor Lighting",
+    "Sub": "Wall Light",
+    "Dep": "Modern black LED wall light with a crystal bubble glass center and multi-beam light projection on both top and bottom. Creates a decorative fan-light effect, perfect for bedrooms, living rooms, corridors, and feature walls.",
+    "Color": "Warm White",
+    "Material": "Aluminium + Crystal Bubble Glass",
+    "Finish": "Matte Black",
+    "Style": "Modern Decorative",
+    "IMG": "assests/Pictures/242.jpg"
+  },
+  {
+    "Id": 243,
+    "Name": "Outdoor Frosted Glass Wall Light",
+    "Category": "Outdoor Lighting",
+    "Sub": "Wall Light",
+    "Dep": "Modern outdoor wall light with a matte black frame and frosted glass diffuser. The layered top design gives a stylish look while providing soft, glare-free illumination, ideal for gates, balconies, gardens, and exterior walls.",
+    "Color": "Warm White",
+    "Material": "Aluminium + Frosted Glass",
+    "Finish": "Matte Black",
+    "Style": "Modern Outdoor",
+    "IMG": "assests/Pictures/243.jpg"
+  },
+  {
+    "Id": 243,
+    "Name": "Outdoor Frosted Glass Wall Light",
+    "Category": "Outdoor Lighting",
+    "Sub": "Wall Light",
+    "Dep": "Modern outdoor wall light with a matte black frame and frosted glass diffuser. The layered top design gives a stylish look while providing soft, glare-free illumination, ideal for gates, balconies, gardens, and exterior walls.",
+    "Color": "Warm White",
+    "Material": "Aluminium + Frosted Glass",
+    "Finish": "Matte Black",
+    "Style": "Modern Outdoor",
+    "IMG": "assests/Pictures/243.jpg"
+  },
+  {
+    "Id": 244,
+    "Name": "Decorative Crystal Pattern Wall Light",
+    "Category": "Indoor Lighting",
+    "Sub": "Wall Light",
+    "Dep": "Modern decorative wall light featuring a clear acrylic body with an elegant criss-cross illuminated pattern and a central matte black metal band. Emits a warm ambient glow, perfect for living rooms, bedrooms, corridors, and feature walls.",
+    "Color": "Warm White",
+    "Material": "Aluminium + Acrylic",
+    "Finish": "Matte Black",
+    "Style": "Modern Decorative",
+    "IMG": "assests/Pictures/244.jpg"
+  },
+  {
+    "Id": 245,
+    "Name": "Modern Up-Down Beam Wall Light",
+    "Category": "Wall Light",
+    "Sub": "Wall Light",
+    "Dep": "Contemporary rectangular wall light with a central frosted diffuser and dual up-down beam projection. Creates a striking ambient lighting effect, ideal for façades, corridors, stairways, and modern interiors or exteriors.",
+    "Color": "Warm White",
+    "Material": "Aluminium + Acrylic",
+    "Finish": "Textured Matte Black",
+    "Style": "Modern Architectural",
+    "IMG": "assests/Pictures/245.jpg"
+  },
+  {
+    "Id": 246,
+    "Name": "Dual Beam Linear Wall Light",
+    "Category": "Wall Light",
+    "Sub": "Wall Light",
+    "Dep": "Modern wall-mounted light featuring a central horizontal frosted bar with balanced up and down beam projection. Designed to create a soft, symmetrical ambient glow for contemporary interiors and exterior façades.",
+    "Color": "Warm White",
+    "Material": "Aluminium + Acrylic",
+    "Finish": "Matte Black",
+    "Style": "Modern Architectural",
+    "IMG": "assests/Pictures/246.jpg"
+  },
+  {
+    "Id": 247,
+    "Name": "Twin Down Beam Wall Light",
+    "Category": "Wall Light",
+    "Sub": "Wall Light",
+    "Dep": "Modern wall-mounted light featuring a curved matte black housing with dual downward light beams. Designed to create soft overlapping illumination, ideal for corridors, staircases, and exterior accent walls.",
+    "Color": "Warm White",
+    "Material": "Aluminium",
+    "Finish": "Matte Black",
+    "Style": "Modern Architectural",
+    "IMG": "assests/Pictures/247.jpg"
+  },
+  {
+    "Id": 248,
+    "Name": "Radial Petal Beam Wall Light",
+    "Category": "Wall Light",
+    "Sub": "Wall Light",
+    "Dep": "Modern circular wall-mounted light featuring a central ring diffuser that creates a dramatic flower-like radial beam pattern on the wall. Perfect for decorative indoor and outdoor accent lighting.",
+    "Color": "Warm White",
+    "Material": "Aluminium",
+    "Finish": "Matte Black",
+    "Style": "Modern Decorative",
+    "IMG": "assests/Pictures/248.jpg"
+  },
+  {
+    "Id": 249,
+    "Name": "Curved Multi-Beam Wall Light",
+    "Category": "Wall Light",
+    "Sub": "Wall Light",
+    "Dep": "Modern curved wall-mounted light designed with multiple lens points that project a striking multi-beam diamond pattern both upward and downward. Ideal for decorative indoor and outdoor wall lighting.",
+    "Color": "Warm White",
+    "Material": "Aluminium",
+    "Finish": "Matte Black",
+    "Style": "Modern Decorative",
+    "IMG": "assests/Pictures/249.jpg"
+  },
+  {
+    "Id": 250,
+    "Name": "Triple Cage Pendant Hanging Light",
+    "Category": "Pendant Lights",
+    "Sub": "Pendant Light",
+    "Dep": "Stylish triple-drop pendant light featuring metal cage shades accented with rope detailing. Designed to create a warm ambient glow, ideal for dining areas, stairwells, cafés, and modern rustic interiors.",
+    "Color": "Warm White",
+    "Material": "Metal + Rope",
+    "Finish": "Matte Black with Natural Rope",
+    "Style": "Industrial / Rustic Modern",
+    "Mounting": "Ceiling Mounted",
+    "Bulb_Type": "E27 (Compatible)",
+    "IMG": "assests/Pictures/250.jpg"
+  },
+  {
+    "Id": 251,
+    "Name": "Rectangular Cage Pendant Light",
+    "Category": "Pendant Lights",
+    "Sub": "Pendant Light",
+    "Dep": "Modern rectangular pendant light with a black metal frame and clear glass panels, designed to showcase filament bulbs. Suitable for kitchens, dining counters, bars, cafés, and contemporary interiors. Available in multiple hanging lengths for layered lighting designs.",
+    "Color": "Warm White",
+    "Material": "Metal + Glass",
+    "Finish": "Matte Black",
+    "Style": "Modern / Industrial",
+    "Mounting": "Ceiling Mounted",
+    "Bulb_Type": "E27 (Compatible)",
+    "IMG": "assests/Pictures/251.jpg"
+  },
+  {
+    "Id": 252,
+    "Name": "Modern 3-Light Gold Textured Glass Pendant",
+    "Category": "Pendant Lights",
+    "Sub": "Pendant Light",
+    "Dep": "A sophisticated modern 3-light pendant featuring sleek gold-finished stems and elegant bell-shaped textured glass shades. The diamond-patterned amber glass diffuses a warm, inviting glow, creating a luxurious ambiance. Suspended from a round matte black ceiling canopy, this fixture is perfect for dining areas, kitchen islands, and contemporary living spaces.",
+    "Color": "Gold, Amber",
+    "Material": "Metal, Glass",
+    "Finish": "Polished Gold, Textured Glass",
+    "Style": "Modern, Contemporary",
+    "Mounting": "Ceiling Mounted",
+    "Bulb_Type": "E27 (Compatible)",
+    "IMG": "assests/Pictures/252.jpg"
+  },
+  {
+    "Id": 253,
+    "Name": "Modern 3-Light Geometric Cage Pendant with Crystal Accents",
+    "Category": "Pendant Lights",
+    "Sub": "Pendant Light",
+    "Dep": "A striking modern 3-light pendant featuring geometric chevron-patterned metal cage shades in matte black finish. Each pendant includes elegant crystal glass accents at the top and bottom, creating a sophisticated contrast. The warm amber inner glow provides inviting illumination. Suspended from a round white ceiling canopy at varying heights, this fixture is perfect for dining areas, kitchen islands, stairwells, and contemporary living spaces.",
+    "Color": "Black, Clear Crystal, Warm Amber",
+    "Material": "Metal, Crystal Glass",
+    "Finish": "Matte Black with Crystal Accents",
+    "Style": "Modern, Contemporary, Geometric",
+    "Mounting": "Ceiling Mounted",
+    "Bulb_Type": "E27 (Compatible)",
+    "IMG": "assests/Pictures/253.jpg"
+  },
+  {
+    "Id": 254,
+    "Name": "Modern 3-Light Frosted Glass Pendant with Gold Accents",
+    "Category": "Pendant Lights",
+    "Sub": "Pendant Light",
+    "Dep": "An elegant modern 3-light pendant featuring elongated cylindrical frosted glass shades with a textured finish that creates a soft, warm glow. Each pendant is accented with matte black holders and subtle gold trim rings, creating a sophisticated contrast. Suspended from a round black ceiling canopy at staggered heights, this fixture provides beautiful ambient lighting perfect for dining areas, kitchen islands, and contemporary living spaces.",
+    "Color": "Black, Gold, Frosted White",
+    "Material": "Metal, Frosted Glass",
+    "Finish": "Matte Black with Gold Accents",
+    "Style": "Modern, Contemporary, Minimalist",
+    "Mounting": "Ceiling Mounted",
+    "Bulb_Type": "E27 (Compatible)",
+    "IMG": "assests/Pictures/254.jpg"
+  },
+  {
+    "Id": 255,
+    "Name": "Luxury Traditional Crystal Chandelier with Candle Lights",
+    "Category": "Chandeliers",
+    "Sub": "Crystal Chandelier",
+    "Dep": "A magnificent traditional crystal chandelier featuring an ornate antique gold-finished metal frame with intricate scrollwork and decorative detailing. The chandelier showcases multiple tiers with candle-style flame-tip bulbs, adorned with cascading crystal drops, crystal beads, and faceted crystal pendants that create stunning light reflections. The elaborate design includes decorative crowns and swag chains, making it a statement piece perfect for grand dining rooms, ballrooms, luxury hotels, palatial interiors, and classic traditional spaces.",
+    "Color": "Antique Gold, Clear Crystal",
+    "Material": "Metal, Crystal Glass",
+    "Finish": "Antique Gold with Clear Crystal",
+    "Style": "Traditional, Classic, Luxury, Baroque",
+    "Mounting": "Ceiling Mounted with Chain",
+    "Bulb_Type": "E14 Candle (Compatible)",
+    "IMG": "assests/Pictures/255.jpg"
+  },
+  {
+    "Id": 256,
+    "Name": "Modern Luxury Tiered Crystal Chandelier - Black & Gold",
+    "Category": "Chandeliers",
+    "Sub": "Crystal Chandelier",
+    "Dep": "A stunning modern luxury chandelier featuring a dramatic tiered design with alternating layers of matte black cylindrical tubes and polished gold accents. The chandelier is adorned with cascading tiers of faceted crystal glass prisms that create brilliant light reflections and a glamorous waterfall effect. The central column features a decorative twisted design, and the fixture is finished with a polished gold ceiling canopy. This statement piece combines contemporary geometric design with classic crystal elegance, perfect for luxury dining rooms, living rooms, hotel lobbies, and high-end modern interiors.",
+    "Color": "Black, Gold, Clear Crystal",
+    "Material": "Metal, Crystal Glass",
+    "Finish": "Matte Black with Polished Gold and Clear Crystal",
+    "Style": "Modern Luxury, Contemporary Glam, Art Deco",
+    "Mounting": "Ceiling Mounted",
+    "Bulb_Type": "G9 / E14 (Compatible)",
+    "IMG": "assests/Pictures/256.jpg"
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]

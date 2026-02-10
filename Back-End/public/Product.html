@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Domax Trading </title>
@@ -15,250 +16,269 @@
   <script src="indexDataLoader.js" defer></script>
 
 </head>
+
 <body>
-<header class="shadow-lg" >
-  <nav class="navbar navbar-expand-md" id="navBar">
-    <div class="container">
-      <!-- Logo -->
-      <a class="navbar-brand" href="#">
-        <img src="assests/Logos/Logo-02.png" alt="Domax Trading Logo " onclick="goToHome()" >
-      </a>
+  <header class="shadow-lg">
+    <nav class="navbar navbar-expand-md" id="navBar">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="assests/Logos/Logo-02.png" alt="Domax Trading Logo " onclick="goToHome()">
+        </a>
 
-      <!-- Toggle button for small screens -->
-      <button class="navbar-toggler1  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <!-- Toggle button for small screens -->
+        <button class="navbar-toggler1  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <!-- Collapsible content -->
-      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
-        <ul class="navbar-nav align-items-md-center">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Product.html">Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-        </ul>
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+          <ul class="navbar-nav align-items-md-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Product.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
 
-        <!-- Search bar -->
-        <form class="d-flex mt-3 mt-md-0 ms-md-3" role="search">
-          <input class="form-control" type="search" placeholder="Search" aria-label="Search" id="searchText">
+          <!-- Search bar -->
+          <form class="d-flex mt-3 mt-md-0 ms-md-3" role="search">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search" id="searchText">
 
-        </form>
-      </div>
-    </div>
-  </nav>
-</header>
-
-
-<div id="searchDropdown" class="dropdown-content"></div>
-
-
-<div class="container" id="ProductBanner">
-  <div>
-    <h1 id="FilterHeading">All Products</h1>
-    <hr id="ProductHr">
-    <h5 id="itemCount">46 items</h5>
-  </div>
-
-  <div id="applied-filters">
-    <span>Applied Filters:</span>
-    <div id="selected-filters-container"></div>
-    <a href="#" id="clear-filters" style="text-decoration: underline;">Clear all</a>
-  </div>
-
-  <div class="text-center product-error-box">
-    <p class="product-error">Your criteria did not match any products.</p>
-    <button id="clearAllBtn" >Clear all</button>
-  </div>
-  <button id="mobileFilterBtn" class="Filter-BTN" style="position: relative; top: 80px;; z-index: 999;">
-    Filters
-
-  </button>
-</div>
-<div class="topDiv" id="backToTop">
-  <img src="assests/Pictures/upload.png" alt="Upload Image">
-
-</div>
-
-<div class="container-fluid mt-5 filter-container">
-  <div class="row">
-    <!-- Filter Sidebar -->
-    <div class="col-12 col-lg-3">
-      <div id="FilterSlider">
-        <!-- Color Filter -->
-        <div class="filter-section">
-          <div class="filter-title" onclick="toggleSection(this)">Color
-            <img src="assests/Pictures/ARROW.png" alt="Arrow" class="arrow">
-          </div>
-          <div class="filter-content1 color-options">
-            <span class="color-circle" style="background-color: black;" data-color="Black"></span>
-            <span class="color-circle" style="background-color: white;" data-color="White"></span>
-            <span class="color-circle" style="background-color: gold;" data-color="Gold"></span>
-          </div>
-          <hr class="FilterHr">
+          </form>
         </div>
+      </div>
+    </nav>
+  </header>
 
-        <!-- Category Filter -->
-        <div id="FilterCategory">
+
+  <div id="searchDropdown" class="dropdown-content"></div>
+
+
+  <div class="container" id="ProductBanner">
+    <div>
+      <h1 id="FilterHeading">All Products</h1>
+      <hr id="ProductHr">
+      <h5 id="itemCount">46 items</h5>
+    </div>
+
+    <div id="applied-filters">
+      <span>Applied Filters:</span>
+      <div id="selected-filters-container"></div>
+      <a href="#" id="clear-filters" style="text-decoration: underline;">Clear all</a>
+    </div>
+
+    <div class="text-center product-error-box">
+      <p class="product-error">Your criteria did not match any products.</p>
+      <button id="clearAllBtn">Clear all</button>
+    </div>
+    <button id="mobileFilterBtn" class="Filter-BTN" style="position: relative; top: 80px;; z-index: 999;">
+      Filters
+
+    </button>
+  </div>
+  <div class="topDiv" id="backToTop">
+    <img src="assests/Pictures/upload.png" alt="Upload Image">
+
+  </div>
+
+  <div class="container-fluid mt-5 filter-container">
+    <div class="row">
+      <!-- Filter Sidebar -->
+      <div class="col-12 col-lg-3">
+        <div id="FilterSlider">
+          <!-- Color Filter -->
           <div class="filter-section">
-            <div class="filter-title" onclick="toggleSection(this)">Category
+            <div class="filter-title" onclick="toggleSection(this)">Color
               <img src="assests/Pictures/ARROW.png" alt="Arrow" class="arrow">
             </div>
-            <div class="filter-content">
-              <label><input type="checkbox" name="category" />Wall Light</label>
-              <label><input type="checkbox" name="category" />Chandeliers</label>
-              <label><input type="checkbox" name="category" />Garden Lamp</label>
-              <label><input type="checkbox" name="category" />Pendant Lights</label>
-              <label><input type="checkbox" name="category" />Edison Bulbs</label>
-              <label><input type="checkbox" name="category" />Strip Light</label>
-              <label><input type="checkbox" name="category" />Step Light</label>
-              <label><input type="checkbox" name="category" />Spotlight</label>
-              <label><input type="checkbox" name="category" />Wall Sconce</label>
-              <label><input type="checkbox" name="category" />Underwater Light</label>
+            <div class="filter-content1 color-options">
+              <span class="color-circle" style="background-color: black;" data-color="Black"></span>
+              <span class="color-circle" style="background-color: white;" data-color="White"></span>
+              <span class="color-circle" style="background-color: gold;" data-color="Gold"></span>
             </div>
             <hr class="FilterHr">
           </div>
+
+          <!-- Category Filter -->
+          <div id="FilterCategory">
+            <div class="filter-section">
+              <div class="filter-title" onclick="toggleSection(this)">Category
+                <img src="assests/Pictures/ARROW.png" alt="Arrow" class="arrow">
+              </div>
+              <div class="filter-content">
+                <label><input type="checkbox" name="category" />Wall Light</label>
+                <label><input type="checkbox" name="category" />Chandeliers</label>
+                <label><input type="checkbox" name="category" />Garden Lamp</label>
+                <label><input type="checkbox" name="category" />Pendant Lights</label>
+                <label><input type="checkbox" name="category" />Edison Bulbs</label>
+                <label><input type="checkbox" name="category" />Strip Light</label>
+                <label><input type="checkbox" name="category" />Step Light</label>
+                <label><input type="checkbox" name="category" />Spotlight</label>
+                <label><input type="checkbox" name="category" />Wall Sconce</label>
+                <label><input type="checkbox" name="category" />Underwater Light</label>
+              </div>
+              <hr class="FilterHr">
+            </div>
+          </div>
+
+          <!-- Subcategory / Shape Filter -->
+          <div id="FilterSubCategory">
+            <div class="filter-section">
+              <div class="filter-title" onclick="toggleSection(this)">Shape
+                <img src="assests/Pictures/ARROW.png" alt="Arrow" class="arrow">
+              </div>
+              <div class="filter-content">
+                <label><input type="checkbox" name="shape" />Crystal</label>
+                <label><input type="checkbox" name="shape" />Cluster</label>
+                <label><input type="checkbox" name="shape" />Dome</label>
+                <label><input type="checkbox" name="shape" />Lantern</label>
+                <label><input type="checkbox" name="shape" />Geometric</label>
+                <label><input type="checkbox" name="shape" />Cylindrical</label>
+                <label><input type="checkbox" name="shape" />Vertical</label>
+                <label><input type="checkbox" name="shape" />Rectangle</label>
+              </div>
+              <hr class="FilterHr">
+            </div>
+          </div>
+
+          <!-- Style Filter -->
+          <div id="Style">
+            <div class="filter-section">
+              <div class="filter-title" onclick="toggleSection(this)">Style
+                <img src="assests/Pictures/ARROW.png" alt="Arrow" class="arrow">
+              </div>
+              <div class="filter-content">
+                <label><input type="checkbox" name="style" />Modern & Contemporary</label>
+                <label><input type="checkbox" name="style" />Nordic</label>
+                <label><input type="checkbox" name="style" />Industrial</label>
+                <label><input type="checkbox" name="style" />Nautical</label>
+              </div>
+              <hr class="FilterHr">
+            </div>
+            <div id="mobileIMG">
+              <div id="mobileFilterSliderIMG">
+                <img src="assests/Logos/Logo-02.png" alt="Logo">
+              </div>
+            </div>
+          </div>
         </div>
 
-        <!-- Subcategory / Shape Filter -->
-        <div id="FilterSubCategory">
-          <div class="filter-section">
-            <div class="filter-title" onclick="toggleSection(this)">Shape
-              <img src="assests/Pictures/ARROW.png" alt="Arrow" class="arrow">
-            </div>
-            <div class="filter-content">
-              <label><input type="checkbox" name="shape" />Crystal</label>
-              <label><input type="checkbox" name="shape" />Cluster</label>
-              <label><input type="checkbox" name="shape" />Dome</label>
-              <label><input type="checkbox" name="shape" />Lantern</label>
-              <label><input type="checkbox" name="shape" />Geometric</label>
-              <label><input type="checkbox" name="shape" />Cylindrical</label>
-              <label><input type="checkbox" name="shape" />Vertical</label>
-              <label><input type="checkbox" name="shape" />Rectangle</label>
-            </div>
-            <hr class="FilterHr">
-          </div>
-        </div>
-
-        <!-- Style Filter -->
-        <div id="Style">
-          <div class="filter-section">
-            <div class="filter-title" onclick="toggleSection(this)">Style
-              <img src="assests/Pictures/ARROW.png" alt="Arrow" class="arrow">
-            </div>
-            <div class="filter-content">
-              <label><input type="checkbox" name="style" />Modern & Contemporary</label>
-              <label><input type="checkbox" name="style" />Nordic</label>
-              <label><input type="checkbox" name="style" />Industrial</label>
-              <label><input type="checkbox" name="style" />Nautical</label>
-            </div>
-            <hr class="FilterHr">
-          </div>
-          <div id="mobileIMG">
-            <div id="mobileFilterSliderIMG">
-              <img src="assests/Logos/Logo-02.png" alt="Logo">
-            </div>
-          </div>
-        </div>
       </div>
 
-    </div>
 
-
-    <div class="col-12 col-lg-9">
+      <div class="col-12 col-lg-9">
 
 
 
-      <div id="product-grid">
-        <div id="product-list">
+        <div id="product-grid">
+          <div id="product-list">
 
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
 
 
 
 
 
-<div class="d-flex align-items-center justify-content-center my-4" id="endDIV">
-  <hr class="m-0" style="width:80px;">
-  <span class="px-3 text-dark EndText">End of the Product List</span>
-  <hr class="m-0" style="width:80px;">
-</div>
+  <div class="d-flex align-items-center justify-content-center my-4" id="endDIV">
+    <hr class="m-0" style="width:80px;">
+    <span class="px-3 text-dark EndText">End of the Product List</span>
+    <hr class="m-0" style="width:80px;">
+  </div>
 
 
 
-<footer id="footer">
-  <div class="container" id="subFooter">
-    <div class="row" id="footerRow">
+  <footer id="footer">
+    <div class="container" id="subFooter">
+      <div class="row" id="footerRow">
 
-      <!-- Logo -->
-      <div class="col-md-3 col-sm-6 mb-4 text-center text-md-start" id="rec1">
-        <img src="assests/Logos/Logo-02.png" alt="Logo" class="d-block mx-auto" style="max-height: 80px;" id="footerLogo">
-      </div>
+        <!-- Logo -->
+        <div class="col-md-3 col-sm-6 mb-4 text-center text-md-start" id="rec1">
+          <img src="assests/Logos/Logo-02.png" alt="Logo" class="d-block mx-auto" style="max-height: 80px;"
+            id="footerLogo">
+        </div>
 
 
-      <div class="col-md-3 col-sm-6 mb-4" id="rec2">
-        <h5 class="fw-bold FooterSubHeading" >Quick Menu</h5>
-        <ul class="list-unstyled">
+        <div class="col-md-3 col-sm-6 mb-4" id="rec2">
+          <h5 class="fw-bold FooterSubHeading">Quick Menu</h5>
+          <ul class="list-unstyled">
+            <div class="navText">
+              <li><a href="index.html" class=" text-decoration-none FooterNavText">Home</a></li>
+              <li><a href="Product.html" class=" text-decoration-none FooterNavText">collections</a></li>
+              <li><a href="about.html" class=" text-decoration-none FooterNavText">About</a></li>
+              <li><a href="contact.html" class=" text-decoration-none FooterNavText">Contact</a></li>
+            </div>
+
+          </ul>
+          <div class="follow">
+            <p class="followText">Follow :</p>
+            <span class="followLogoContainer">
+              <img src="assests/Pictures/facebook.png" alt="Facebook" class="img-fluid followLogo"
+                onclick="facebookRedirect()">
+              <img src="assests/Pictures/instagram.png" alt="Instagram" class="img-fluid followLogo"
+                onclick="instagramRedirect()">
+              <img src="assests/Pictures/tik-tok.png" alt="TikTok" class="img-fluid followLogo"
+                onclick="tiktokRedirect()">
+            </span>
+          </div>
+        </div>
+
+        <!-- Sri Lanka Office -->
+        <div class="col-md-3 col-sm-6 mb-4" id="rec3">
+          <h5 class="fw-bold FooterSubHeading">Sri Lanka Office</h5>
           <div class="navText">
-            <li><a href="index.html" class=" text-decoration-none FooterNavText">Home</a></li>
-            <li><a href="Product.html" class=" text-decoration-none FooterNavText">Product</a></li>
-            <li><a href="about.html" class=" text-decoration-none FooterNavText">About</a></li>
-            <li><a href="contact.html" class=" text-decoration-none FooterNavText">Contact</a></li>
+
+
+            <p class="mb-1 FooterNavText">8B/66/04, Mattegoda, Kottawa</p>
+            <p class="mb-1 FooterNavText">Telephone: +94 11 2182050</p>
+            <p class="mb-1 FooterNavText">Mobile: +94 77 6950920</p>
+            <p class="mb-0 FooterNavText" id="FooterEmail1">Email: <a
+                href="https://mail.google.com/mail/?view=cm&to=domax.trading@gmail.com"
+                class="text-dark">domax.trading@gmail.com</a></p>
           </div>
-
-        </ul>
-      </div>
-
-      <!-- Sri Lanka Office -->
-      <div class="col-md-3 col-sm-6 mb-4" id="rec3">
-        <h5 class="fw-bold FooterSubHeading">Sri Lanka Office</h5>
-        <div class="navText">
-
-
-          <p class="mb-1 FooterNavText">8B/66/04, Mattegoda, Kottawa</p>
-          <p class="mb-1 FooterNavText">Telephone: +94 11 2182050</p>
-          <p class="mb-1 FooterNavText">Mobile: +94 77 6950920</p>
-          <p class="mb-0 FooterNavText" id="FooterEmail1">Email: <a href="https://mail.google.com/mail/?view=cm&to=domax.trading@gmail.com" class="text-dark">domax.trading@gmail.com</a></p>
         </div>
-      </div>
 
-      <!-- China Office -->
-      <div class="col-md-3 col-sm-6 mb-4" id="rec4">
-        <h5 class="fw-bold FooterSubHeading">China Office</h5>
-        <div class="navText">
+        <!-- China Office -->
+        <div class="col-md-3 col-sm-6 mb-4" id="rec4">
+          <h5 class="fw-bold FooterSubHeading">China Office</h5>
+          <div class="navText">
 
-          <p class="mb-1 FooterNavText">Hong Kong Osuper International Group Ltd.
-            Room 326-330, Xinhua Hotal,
-            No.2-6 RenMin Road South,
-            Guangzhou. China</p>
-          <p class="mb-1 FooterNavText">Telephone:  +86-20-29878176</p>
-          <p class="mb-1 FooterNavText">Mobile: +86-15920345550</p>
-          <p class="mb-0 FooterNavText" id="FooterEmail2">Email: <a href="https://mail.google.com/mail/?view=cm&to=domax.trading@gmail.com" class="text-dark">domax.trading@gmail.com</a></p>
+            <p class="mb-1 FooterNavText">Hong Kong Osuper International Group Ltd.
+              Room 326-330, Xinhua Hotal,
+              No.2-6 RenMin Road South,
+              Guangzhou. China</p>
+            <p class="mb-1 FooterNavText">Telephone: +86-20-29878176</p>
+            <p class="mb-1 FooterNavText">Mobile: +86-15920345550</p>
+            <p class="mb-0 FooterNavText" id="FooterEmail2">Email: <a
+                href="https://mail.google.com/mail/?view=cm&to=domax.trading@gmail.com"
+                class="text-dark">domax.trading@gmail.com</a></p>
 
+          </div>
         </div>
+
+
       </div>
 
-
+      <div class="text-center mt-4 border-top FooterText">
+        <small>&copy; 2025 Domax Trading. All rights reserved.</small>
+      </div>
     </div>
-    <div class="text-center mt-4 border-top FooterText">
-      <small>&copy; 2025 Domax Trading. All rights reserved.</small>
-    </div>
-  </div>
-</footer>
+  </footer>
 
 
 
 </body>
+
 </html>
