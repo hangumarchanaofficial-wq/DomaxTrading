@@ -9,10 +9,6 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Serve static files - check multiple possible locations
-const staticPath = path.join(__dirname, 'public');
-app.use(express.static(staticPath));
-
 // Configure SES client with IAM access keys
 const sesClient = new SESClient({
     region: process.env.AWS_REGION,
@@ -59,8 +55,9 @@ ${firstName} ${lastName}`,
     }
 });
 
+// Serve index.html for root path
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    res.redirect('/index.html');
 });
 
 app.listen(PORT, () => {

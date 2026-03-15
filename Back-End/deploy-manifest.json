@@ -3,21 +3,24 @@
   "framework": { "name": "express", "version": "5.1.0" },
   "routes": [
     {
-      "path": "/*.*",
+      "path": "/send",
       "target": {
-        "kind": "Static",
-        "cacheControl": "public, max-age=86400"
-      },
-      "fallback": {
         "kind": "Compute",
         "src": "default"
       }
     },
     {
+      "path": "/*.*",
+      "target": {
+        "kind": "Static",
+        "cacheControl": "public, max-age=86400"
+      }
+    },
+    {
       "path": "/*",
       "target": {
-        "kind": "Compute",
-        "src": "default"
+        "kind": "Static",
+        "cacheControl": "public, max-age=86400"
       }
     }
   ],
