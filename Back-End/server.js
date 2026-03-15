@@ -8,7 +8,10 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, 'public')));
+
+// Serve static files - check multiple possible locations
+const staticPath = path.join(__dirname, 'public');
+app.use(express.static(staticPath));
 
 // Configure SES client with IAM access keys
 const sesClient = new SESClient({
@@ -23,7 +26,7 @@ app.post('/send', async (req, res) => {
     const { firstName, lastName, email, subject, message } = req.body;
 
     const params = {
-        Source: 'no-reply@domaxtrading.web.lk', // verified SES email/domain
+        Source: 'no-reply@domaxtrading.web.lk',
         Destination: { ToAddresses: [process.env.EMAIL_TO] },
         ReplyToAddresses: [email],
         Message: {
@@ -63,4 +66,3 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 });
-
