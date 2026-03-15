@@ -1,6 +1,7 @@
 const express = require('express');
 const { SESClient, SendEmailCommand } = require('@aws-sdk/client-ses');
 const path = require('path');
+const fs = require('fs');
 require('dotenv').config();
 
 const app = express();
@@ -18,6 +19,7 @@ const sesClient = new SESClient({
     },
 });
 
+// Email endpoint
 app.post('/send', async (req, res) => {
     const { firstName, lastName, email, subject, message } = req.body;
 
@@ -55,9 +57,50 @@ ${firstName} ${lastName}`,
     }
 });
 
-// Serve index.html for root path
+// Root path → index.html
 app.get('/', (req, res) => {
-    res.redirect('/index.html');
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
+// Clean URLs + case-insensitive handler
+// Handles: /contact, /Contact, /CONTACT, /contact.html, /Contact.html etc.
+app.get('*', (req, res) => {
+    const publicDir = path.join(__dirname, 'public');
+    let requestedPath = req.path;
+
+    // Remove leading slash
+    let pageName = requestedPath.replace(/^\//, '');
+
+    // Remove .html extension if present
+    pageName = pageName.replace(/\.html$/i, '');
+
+    // If it's a static file request (has extension like .css, .js, .jpg, .png, .json, etc.)
+    if (pageName.includes('.')) {
+        // Try exact path first
+        const exactPath = path.join(publicDir, requestedPath);
+        if (fs.existsSync(exactPath)) {
+            return res.sendFile(exactPath);
+        }
+        // File not found
+        return res.status(404).send('File not found');
+    }
+
+    // For page requests (no extension), find the matching HTML file (case-insensitive)
+    try {
+        const files = fs.readdirSync(publicDir);
+        const matchedFile = files.find(
+            file => file.toLowerCase() === `${pageName.toLowerCase()}.html`
+        );
+
+        if (matchedFile) {
+            return res.sendFile(path.join(publicDir, matchedFile));
+        }
+    } catch (err) {
+        console.error('Error reading directory:', err);
+    }
+
+    // Nothing found → 404
+    res.status(404).send('Page not found');
 });
 
 app.listen(PORT, () => {
