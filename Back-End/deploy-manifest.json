@@ -3,13 +3,6 @@
   "framework": { "name": "express", "version": "5.1.0" },
   "routes": [
     {
-      "path": "/send",
-      "target": {
-        "kind": "Compute",
-        "src": "default"
-      }
-    },
-    {
       "path": "/*.*",
       "target": {
         "kind": "Static",

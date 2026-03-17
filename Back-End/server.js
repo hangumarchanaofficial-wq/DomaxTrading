@@ -1,6 +1,5 @@
 const express = require('express');
 const { SESClient, SendEmailCommand } = require('@aws-sdk/client-ses');
-const serverlessExpress = require('@vendia/serverless-express');
 const path = require('path');
 const fs = require('fs');
 require('dotenv').config();
@@ -107,7 +106,7 @@ Object.entries(pageMap).forEach(([route, file]) => {
     });
 });
 
-// Case-insensitive fallback — Express 5 requires named wildcard param
+// Case-insensitive fallback — Express 5 requires named wildcard
 app.get('/{*path}', (req, res) => {
     const requestedPage = req.params.path.replace(/\.html$/i, '').toLowerCase();
 
@@ -129,13 +128,7 @@ app.get('/{*path}', (req, res) => {
     res.status(404).send('Page not found');
 });
 
-// Amplify / Lambda handler
-if (process.env.AWS_LAMBDA_FUNCTION_NAME) {
-    const handler = serverlessExpress({ app });
-    module.exports = app;
-    module.exports.handler = handler;
-} else {
-    app.listen(PORT, () => {
-        console.log(`Server running at http://localhost:${PORT}`);
-    });
-}
+// ALWAYS listen on port 3000 — Amplify Hosting expects this
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
