@@ -199,7 +199,7 @@ function renderProducts(filteredItems) {
             </div>
             <div class="card-body1">
                 <h5 class="card-title productName">${product.Name}</h5>
-                <a href="ProductDetails.html?id=${product.Id}" class="btn btn-outline-dark BuyButton">View More</a>
+                <a href="/productdetails?id=${product.Id}" class="btn btn-outline-dark BuyButton">View More</a>
 
                 
             </div>
@@ -242,7 +242,7 @@ function applyFilters() {
 let database1;
 async function dataLoader(){
     try{
-        const response = await fetch('Data.json');
+        const response = await fetch('/Data.json');
         if(!response.ok){
             throw new Error('Network response was not ok');
         }

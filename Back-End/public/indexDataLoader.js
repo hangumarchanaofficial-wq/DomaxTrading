@@ -73,9 +73,9 @@ async function main() {
 }
 main();
 function getRenderId(productId) {
-    window.location.href = `ProductDetails.html?id=${productId}`;
+    window.location.href = `/productdetails?id=${productId}`;
 }
 function goToProduct() {
-    window.location.href = `Product.html`;
+    window.location.href = `/product`;
 }
 

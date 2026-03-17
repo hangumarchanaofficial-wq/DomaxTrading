@@ -4,7 +4,7 @@ HeaderDropDown.addEventListener('click', function () {
     HeaderDropDown.classList.toggle('activeHeaderDropDown');
 });
 function redirectToContactPage() {
-    window.location.href = "contact.html";
+    window.location.href = "/contact";
 }
 
 function facebookRedirect() {

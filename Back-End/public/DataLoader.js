@@ -1,7 +1,7 @@
 let database;
 async function dataLoader(){
     try{
-        const response = await fetch('Data.json');
+        const response = await fetch('/Data.json');
         if(!response.ok){
             throw new Error('Network response was not ok');
         }

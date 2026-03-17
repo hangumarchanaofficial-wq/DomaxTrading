@@ -10,12 +10,37 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Configure SES client with IAM access keys
+// Log the current directory to debug path issues
+console.log('__dirname:', __dirname);
+console.log('Files in __dirname:', fs.readdirSync(__dirname));
+
+// Check if public folder exists in different locations
+const possiblePaths = [
+    path.join(__dirname, 'public'),
+    path.join(__dirname, '..', 'public'),
+    '/var/task/public',
+];
+
+let publicDir = null;
+for (const p of possiblePaths) {
+    if (fs.existsSync(p)) {
+        publicDir = p;
+        console.log('Found public folder at:', p);
+        break;
+    }
+}
+
+if (!publicDir) {
+    console.log('WARNING: No public folder found. Using __dirname as fallback.');
+    publicDir = __dirname;
+}
+
+// Configure SES client
 const sesClient = new SESClient({
-    region: process.env.AWS_REGION,
+    region: process.env.AWS_REGION || 'eu-north-1',
     credentials: {
-        accessKeyId: process.env.AWS_ACCESS_KEY,
-        secretAccessKey: process.env.AWS_SECRET_KEY,
+        accessKeyId: process.env.AWS_ACCESS_KEY || '',
+        secretAccessKey: process.env.AWS_SECRET_KEY || '',
     },
 });
 
@@ -57,52 +82,60 @@ ${firstName} ${lastName}`,
     }
 });
 
-// Root path → index.html
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+// Serve static files
+app.use(express.static(publicDir));
+
+// Clean URL routes
+const pageMap = {
+    '/': 'index.html',
+    '/contact': 'contact.html',
+    '/about': 'about.html',
+    '/product': 'Product.html',
+    '/productdetails': 'ProductDetails.html',
+};
+
+Object.entries(pageMap).forEach(([route, file]) => {
+    app.get(route, (req, res) => {
+        const filePath = path.join(publicDir, file);
+        if (fs.existsSync(filePath)) {
+            res.sendFile(filePath);
+        } else {
+            console.log('File not found:', filePath);
+            res.status(404).send('Page not found');
+        }
+    });
 });
 
-// Clean URLs + case-insensitive handler
-// Handles: /contact, /Contact, /CONTACT, /contact.html, /Contact.html etc.
+// Case-insensitive fallback
 app.get('*', (req, res) => {
-    const publicDir = path.join(__dirname, 'public');
-    let requestedPath = req.path;
+    const requestedPage = req.path.replace(/^\//, '').replace(/\.html$/i, '').toLowerCase();
 
-    // Remove leading slash
-    let pageName = requestedPath.replace(/^\//, '');
+    const caseMap = {
+        'contact': 'contact.html',
+        'about': 'about.html',
+        'product': 'Product.html',
+        'productdetails': 'ProductDetails.html',
+        'index': 'index.html',
+    };
 
-    // Remove .html extension if present
-    pageName = pageName.replace(/\.html$/i, '');
-
-    // If it's a static file request (has extension like .css, .js, .jpg, .png, .json, etc.)
-    if (pageName.includes('.')) {
-        // Try exact path first
-        const exactPath = path.join(publicDir, requestedPath);
-        if (fs.existsSync(exactPath)) {
-            return res.sendFile(exactPath);
+    if (caseMap[requestedPage]) {
+        const filePath = path.join(publicDir, caseMap[requestedPage]);
+        if (fs.existsSync(filePath)) {
+            return res.sendFile(filePath);
         }
-        // File not found
-        return res.status(404).send('File not found');
     }
 
-    // For page requests (no extension), find the matching HTML file (case-insensitive)
-    try {
-        const files = fs.readdirSync(publicDir);
-        const matchedFile = files.find(
-            file => file.toLowerCase() === `${pageName.toLowerCase()}.html`
-        );
-
-        if (matchedFile) {
-            return res.sendFile(path.join(publicDir, matchedFile));
-        }
-    } catch (err) {
-        console.error('Error reading directory:', err);
-    }
-
-    // Nothing found → 404
     res.status(404).send('Page not found');
 });
 
-app.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
-});
+// DO NOT call app.listen() when running on Amplify/Lambda
+// Amplify handles the server startup automatically
+if (process.env.AWS_LAMBDA_FUNCTION_NAME) {
+    // Running on Amplify - export the app
+    module.exports = app;
+} else {
+    // Running locally
+    app.listen(PORT, () => {
+        console.log(`Server running at http://localhost:${PORT}`);
+    });
+}

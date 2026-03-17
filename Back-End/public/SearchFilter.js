@@ -53,10 +53,10 @@ document.getElementById('searchDropdown').addEventListener('click', function (e)
     const item = e.target.closest('.product-item');
     if (item) {
         const pId = item.querySelector('#pId').innerText;
-        window.location.href = `ProductDetails.html?id=${pId}`;
+        window.location.href = `/productdetails?id=${pId}`;
         console.log(pId);
     }
 });
 function goToHome(){
-    window.location.href = `index.html`;
+    window.location.href = `/`;
 }

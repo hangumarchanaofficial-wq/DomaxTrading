@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         console.log("Product ID from URL:", productId);
 
 
-        const response = await fetch('Data.json');
+        const response = await fetch('/Data.json');
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", async function () {
                 productContainer.innerHTML = `
                     <div class="text-center p-4 bg-light rounded ">
                         <p class="h5 mb-3  NoProduct">No Results Found</p>
-                        <a href="Product.html" class="NoProductBTN px-5 py-3">Go to Products</a>
+                        <a href="/product" class="NoProductBTN px-5 py-3">Go to Products</a>
                     </div>
                 `;
                 productDetailFooter.style.setProperty('top', '160px', 'important');
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             productContainer.innerHTML = `
                     <div class="text-center p-4 bg-light rounded ">
                         <p class="h5 mb-3  NoProduct">No Results Found</p>
-                        <a href="Product.html" class="NoProductBTN px-5 py-3">Go to Products</a>
+                        <a href="/product" class="NoProductBTN px-5 py-3">Go to Products</a>
                     </div>
                 `;
             productDetailFooter.style.setProperty('top', '160px', 'important');
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         productContainer.innerHTML = `
                     <div class="text-center p-4 bg-light rounded ">
                         <p class="h5 mb-3  NoProduct">No Results Found</p>
-                        <a href="Product.html" class="NoProductBTN btn-lg px-5 py-3">Go to Products</a>
+                        <a href="/product" class="NoProductBTN btn-lg px-5 py-3">Go to Products</a>
                     </div>
                 `;
         productDetailFooter.style.setProperty('top', '160px', 'important');
