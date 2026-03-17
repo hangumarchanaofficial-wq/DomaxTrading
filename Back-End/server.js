@@ -1,5 +1,6 @@
 const express = require('express');
 const { SESClient, SendEmailCommand } = require('@aws-sdk/client-ses');
+const serverlessExpress = require('@vendia/serverless-express');
 const path = require('path');
 const fs = require('fs');
 require('dotenv').config();
@@ -106,9 +107,9 @@ Object.entries(pageMap).forEach(([route, file]) => {
     });
 });
 
-// Case-insensitive fallback
-app.get('*', (req, res) => {
-    const requestedPage = req.path.replace(/^\//, '').replace(/\.html$/i, '').toLowerCase();
+// Case-insensitive fallback — Express 5 requires named wildcard param
+app.get('/{*path}', (req, res) => {
+    const requestedPage = req.params.path.replace(/\.html$/i, '').toLowerCase();
 
     const caseMap = {
         'contact': 'contact.html',
@@ -128,13 +129,12 @@ app.get('*', (req, res) => {
     res.status(404).send('Page not found');
 });
 
-// DO NOT call app.listen() when running on Amplify/Lambda
-// Amplify handles the server startup automatically
+// Amplify / Lambda handler
 if (process.env.AWS_LAMBDA_FUNCTION_NAME) {
-    // Running on Amplify - export the app
+    const handler = serverlessExpress({ app });
     module.exports = app;
+    module.exports.handler = handler;
 } else {
-    // Running locally
     app.listen(PORT, () => {
         console.log(`Server running at http://localhost:${PORT}`);
     });
